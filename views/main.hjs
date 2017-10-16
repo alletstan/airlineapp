@@ -1,0 +1,35 @@
+<ons-page>
+    <ons-splitter>
+        <ons-splitter-side side="right" width="220px" swipe-target-width="150px" collapse swipeable>
+            <ons-page>
+              <ons-list>
+                <ons-list-item tappable>
+                  QR Code
+                </ons-list-item>
+                <ons-list-item tappable>
+                  Package Details
+                </ons-list-item>
+                <ons-list-item tappable>
+                  Attractions
+                </ons-list-item>
+                <ons-list-item tappable>
+                  Special Events
+                </ons-list-item>
+                <ons-list-item tappable>
+                  Recommended
+                </ons-list-item>
+                <ons-list-item tappable>
+                  Lepak 1 Corner
+                </ons-list-item>
+                <ons-list-item tappable>
+                  Useful Contacts
+                </ons-list-item>
+                <ons-list-item tappable>
+                  Logout
+                </ons-list-item>
+              </ons-list>
+            </ons-page>
+        </ons-splitter-side>
+        <ons-splitter-content page="main.html"></ons-splitter-content>
+    </ons-splitter>
+</ons-page>

@@ -5,31 +5,43 @@
   <link rel="stylesheet" href="onsen-ui/css/onsen-css-components.min.css">
   <script src="onsen-ui/js/onsenui.min.js"></script>
   <script>
-    document.addEventListener('init', function(event) {
-      var page = event.target;
-      if (page.matches('#helloworld-page')) {
-        page.querySelector('ons-toolbar .center').innerHTML = 'My app';
-        page.querySelector('ons-button').onclick = function() {
-          ons.notification.alert('Hello world!');
-        };
+
+    var login = function() {
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+
+      if (username === 'a' && password === 'a') {
+        ons.notification.alert('Congratulations!');
+        document.querySelector('#mainNavigator').pushPage('main.html');
       }
-    });
+      else {
+        ons.notification.alert('Incorrect username or password.');
+      }
+    };
+
   </script>
 </head>
 <body>
-    <ons-page id="helloworld-page">
+  <ons-navigator id="mainNavigator" animation="slide" var="app.navi">
+    <ons-page>
       <ons-toolbar>
-        <div class="center"></div>
-        <div class="right">
-          <ons-toolbar-button>
-            <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
-          </ons-toolbar-button>
-        </div>
+        <div class="center">Digital SSH</div>
       </ons-toolbar>
 
-      <p style="text-align: center">
-        <ons-button>Click me!</ons-button>
-      </p>
+      <div style="text-align: center; margin-top: 30px;">
+        <p>
+          <ons-input id="username" modifier="underbar" placeholder="Username" float></ons-input>
+        </p>
+        <p>
+          <ons-input id="password" modifier="underbar" type="password" placeholder="Password" float></ons-input>
+        </p>
+        <p style="margin-top: 30px;">
+          <ons-button onclick="login()">Sign in</ons-button>
+        </p>
+      </div>
+
     </ons-page>
+  </ons-navigator>
+
 </body>
 </html>

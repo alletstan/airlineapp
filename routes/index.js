@@ -6,8 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/game', function(req, res, next) {
-  res.render('game', {});
+router.get('/main.html', function(req, res, next) {
+  res.render('main.hjs', {});
 });
 
 module.exports = router;
