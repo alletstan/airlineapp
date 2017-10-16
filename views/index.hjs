@@ -22,7 +22,7 @@
   </script>
 </head>
 <body>
-  <ons-navigator id="mainNavigator" animation="slide" var="app.navi">
+  <ons-navigator id="mainNavigator" animation="slide" swipeable var="myNavigator">
     <ons-page>
       <ons-toolbar>
         <div class="center">Digital SSH</div>

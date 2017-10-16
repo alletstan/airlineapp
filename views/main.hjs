@@ -1,35 +1,38 @@
 <ons-page>
-    <ons-splitter>
-        <ons-splitter-side side="right" width="220px" swipe-target-width="150px" collapse swipeable>
-            <ons-page>
-              <ons-list>
-                <ons-list-item tappable>
-                  QR Code
-                </ons-list-item>
-                <ons-list-item tappable>
-                  Package Details
-                </ons-list-item>
-                <ons-list-item tappable>
-                  Attractions
-                </ons-list-item>
-                <ons-list-item tappable>
-                  Special Events
-                </ons-list-item>
-                <ons-list-item tappable>
-                  Recommended
-                </ons-list-item>
-                <ons-list-item tappable>
-                  Lepak 1 Corner
-                </ons-list-item>
-                <ons-list-item tappable>
-                  Useful Contacts
-                </ons-list-item>
-                <ons-list-item tappable>
-                  Logout
-                </ons-list-item>
-              </ons-list>
-            </ons-page>
-        </ons-splitter-side>
-        <ons-splitter-content page="main.html"></ons-splitter-content>
-    </ons-splitter>
+  <ons-splitter var="mySplitter" ng-controller="SplitterController as splitter">
+    <ons-splitter-side side="left" width="220px" collapse swipeable>
+      <ons-page>
+        <ons-list>
+          <ons-list-item ng-click="splitter.load('home.html')" tappable>
+            Home
+          </ons-list-item>
+          <ons-list-item ng-click="splitter.load('settings.html')" tappable>
+            Settings
+          </ons-list-item>
+          <ons-list-item ng-click="splitter.load('about.html')" tappable>
+            About
+          </ons-list-item>
+        </ons-list>
+      </ons-page>
+    </ons-splitter-side>
+    <ons-splitter-content page="home.html"></ons-splitter-content>
+  </ons-splitter>
+
+  <template id="home.html">
+    <ons-page>
+      <ons-toolbar>
+        <div class="left">
+          <ons-toolbar-button ng-click="mySplitter.left.open()">
+            <ons-icon icon="md-menu"></ons-icon>
+          </ons-toolbar-button>
+        </div>
+        <div class="center">
+          Main
+        </div>
+      </ons-toolbar>
+      <p style="text-align: center; opacity: 0.6; padding-top: 20px;">
+        Swipe right to open the menu!
+      </p>
+    </ons-page>
+  </template>
 </ons-page>

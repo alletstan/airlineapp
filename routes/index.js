@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/main.html', function(req, res, next) {
-  res.render('main.hjs', {});
+  res.render('main', {});
 });
 
 module.exports = router;
