@@ -1,28 +1,28 @@
 <ons-page>
-  <ons-splitter var="mySplitter" ng-controller="SplitterController as splitter">
-    <ons-splitter-side side="left" width="220px" collapse swipeable>
+  <ons-splitter>
+    <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
       <ons-page>
         <ons-list>
-          <ons-list-item ng-click="splitter.load('home.html')" tappable>
+          <ons-list-item onclick="fn.load('home.html')" tappable>
             Home
           </ons-list-item>
-          <ons-list-item ng-click="splitter.load('settings.html')" tappable>
+          <ons-list-item onclick="fn.load('settings.html')" tappable>
             Settings
           </ons-list-item>
-          <ons-list-item ng-click="splitter.load('about.html')" tappable>
+          <ons-list-item onclick="fn.load('about.html')" tappable>
             About
           </ons-list-item>
         </ons-list>
       </ons-page>
     </ons-splitter-side>
-    <ons-splitter-content page="home.html"></ons-splitter-content>
+    <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
   </ons-splitter>
 
   <template id="home.html">
     <ons-page>
       <ons-toolbar>
         <div class="left">
-          <ons-toolbar-button ng-click="mySplitter.left.open()">
+          <ons-toolbar-button onclick="fn.open()">
             <ons-icon icon="md-menu"></ons-icon>
           </ons-toolbar-button>
         </div>
