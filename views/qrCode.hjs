@@ -8,5 +8,11 @@
     <div class="center">
       QR Code
     </div>
-  </ons-toolbar>
+    </ons-toolbar>
+    <p style="text-align: center; opacity: 0.6; padding-top: 20px;">
+    You do not have a valid package. Sign up for one now!
+    </p>
+    <div style="text-align: center;">
+      <ons-button onclick="fn.load('packageDetails.html')">Sign up for package</ons-button>
+    </div>
 </ons-page>

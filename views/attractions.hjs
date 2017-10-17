@@ -9,4 +9,118 @@
       Attractions
     </div>
   </ons-toolbar>
+
+  <head>
+<style>
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+</style>
+</head>
+<body>
+
+  <p style="text-align: center; opacity: 1; padding-top: 0px; font-size:20px;">
+    Attractions in Singapore
+  </p>
+
+<button class="accordion">Chinatown Food Street</button>
+<div class="panel">
+  <!–– Chinatown Food Street ––>
+  <center>
+    <br>
+    <img src="chinatown-walking-tour.jpg" alt="ChinaTown" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:2em; margin-right:2em;">
+      Located on Smith Street in the heart of Chinatown, the revitalised Chinatown Food Street
+      seeks to create an authentic dining experience for locals and tourists alike. From a
+      tantalising plate of Char Kway Teow, to sticks of mouthwatering Satays, the Chinatown
+      Food Street offers a diverse spread of local delights, with iconicdishes from all cultures
+      represented on a single street.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$5 Adult / S$5 Child
+      <br><br>
+      7 Smith Street        www.chinatownfoodstreet.sg
+      <br><br><br>
+    </p>
+  </center>
+
+</div>
+
+<button class="accordion">Chinatown Heritage Center</button>
+<div class="panel">
+  <!–– Chinatown Heritage Center ––>
+  <center>
+    <br>
+    <img src="chinatown-heritage-centre.jpg" alt="ChinaTownHeriCen" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:2em; margin-right:2em;">
+      Experience the lives of Singapore’s pioneers in their humble shophouse cubicles
+      recreated only at the Chinatown Heritage Centre. Join the character-guided tours
+      and discover the personal stories of Chinatown’s early residents.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$15 Adult / S$11 Child
+      <br><br>
+      48 Pagoda Street, Singapore 059207         www.chinatownheritagecentre.com.sg
+      <br><br><br>
+    </p>
+  </center>
+
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
 </ons-page>
