@@ -6,8 +6,29 @@
           <ons-list-item onclick="fn.load('home.html')" tappable>
             Home
           </ons-list-item>
-          <ons-list-item onclick="fn.load('settings.html')" tappable>
-            Settings
+          <ons-list-item onclick="fn.load('qrCode.html')" tappable>
+            QR Code
+          </ons-list-item>
+          <ons-list-item onclick="fn.load('packageDetails.html')" tappable>
+            Package Details
+          </ons-list-item>
+          <ons-list-item onclick="fn.load('attractions.html')" tappable>
+            Attractions
+          </ons-list-item>
+          <ons-list-item onclick="fn.load('specialEvents.html')" tappable>
+            Special Events
+          </ons-list-item>
+          <ons-list-item onclick="fn.load('recommended.html')" tappable>
+            Recommended
+          </ons-list-item>
+          <ons-list-item onclick="fn.load('lepak.html')" tappable>
+            Lepak One Corner
+          </ons-list-item>
+          <ons-list-item onclick="fn.load('emergencyContacts.html')" tappable>
+            Emergency Contacts
+          </ons-list-item>
+          <ons-list-item onclick="fn.load('logout.html')" tappable>
+            Log Out
           </ons-list-item>
           <ons-list-item onclick="fn.load('about.html')" tappable>
             About

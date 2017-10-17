@@ -6,7 +6,7 @@
       </ons-toolbar-button>
     </div>
     <div class="center">
-      Settings
+      QR Code
     </div>
   </ons-toolbar>
 </ons-page>
