@@ -1,0 +1,124 @@
+<ons-page>
+  <ons-splitter>
+    <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
+      <ons-page>
+        <ons-list>
+          <ons-list-item onclick="fn.load('home.html')" tappable>
+            <div class="left">
+              <ons-icon icon="md-face" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Home
+            </div>
+            </ons-list-item>
+
+          <ons-list-item onclick="fn.load('packageDetails.html')" tappable>
+            <div class="left">
+                <ons-icon icon="md-card-giftcard" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Package Details
+            </div>
+            </ons-list-item>
+
+          <ons-list-item onclick="fn.load('attractions.html')" tappable>
+            <div class="left">
+                <ons-icon icon="md-local-mall" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Attractions
+            </div>
+            </ons-list-item>
+
+          <ons-list-item onclick="fn.load('specialEvents.html')" tappable>
+            <div class="left">
+                <ons-icon icon="md-local-activity" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Special Events
+            </div>
+            </ons-list-item>
+
+          <ons-list-item onclick="fn.load('recommended.html')" tappable>
+            <div class="left">
+                <ons-icon icon="fa-thumbs-up" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Recommended
+            </div>
+            </ons-list-item>
+
+          <ons-list-item onclick="fn.load('lepak.html')" tappable>
+            <div class="left">
+                <ons-icon icon="md-airline-seat-recline-extra" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Lepak One Corner
+            </div>
+            </ons-list-item>
+
+          <ons-list-item onclick="fn.load('usefulContacts.html')" tappable>
+            <div class="left">
+                <ons-icon icon="md-phone" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Useful Contacts
+            </div>
+            </ons-list-item>
+
+          <ons-list-item onclick="logout()" tappable>
+            <div class="left">
+                <ons-icon icon="fa-sign-out" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Log Out
+            </div>
+            </ons-list-item>
+
+          <ons-list-item onclick="fn.load('about.html')" tappable>
+            <div class="left">
+                <ons-icon icon="md-help" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              About
+            </div>
+            </ons-list-item>
+
+          <ons-list-item onclick="fn.load('vouchers.html')" tappable>
+            <div class="left">
+                <ons-icon icon="md-local-atm" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Vouchers
+            </div>
+            </ons-list-item>
+
+        </ons-list>
+      </ons-page>
+    </ons-splitter-side>
+    <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
+  </ons-splitter>
+
+  <template id="home.html">
+    <ons-page>
+      <ons-toolbar>
+        <div class="left">
+          <ons-toolbar-button onclick="fn.open()">
+            <ons-icon icon="md-menu"></ons-icon>
+          </ons-toolbar-button>
+        </div>
+        <div class="center">
+          Main
+        </div>
+      </ons-toolbar>
+
+      <div style="text-align: center;">
+        <p style="opacity: 0.6; padding-top: 20px;">
+        You do not have a valid package. Sign up for one now!
+        </p>
+        <ons-button onclick="fn.load('packageDetails.html')">Sign up for package</ons-button>
+      </div>
+
+    </ons-page>
+  </template>
+</ons-page>
