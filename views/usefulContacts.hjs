@@ -39,12 +39,12 @@
 <body>
 
   <div class="flex-container">
-    <div class="flex-item">Emergency Ambulance and Fire<br>995</div>
-    <div class="flex-item">Non-Emergency Ambulance<br>1777</div>
-    <div class="flex-item">Police Emergency<br>999</div>
-    <div class="flex-item">Police Hotline<br>1800 255 0000</div>
-    <div class="flex-item">SIA Customer Service<br>6223 8888</div>
-    <div class="flex-item">Weather<br>6542 7788</div>
+    <div class="flex-item">Emergency Ambulance and Fire<br><a href="tel:995">995</a></div>
+    <div class="flex-item">Non-Emergency Ambulance<br><a href="tel:1777">1777</a></div>
+    <div class="flex-item">Police Emergency<br><a href="tel:999">999</a></div>
+    <div class="flex-item">Police Hotline<br><a href="tel:1800 255 0000">1800 255 0000</a></div>
+    <div class="flex-item">SIA Customer Service<br><a href="tel:6223 8888">6223 8888</a></div>
+    <div class="flex-item">Weather<br><a href="tel:6542 7788">6542 7788</a></div>
   </div>
 
 </body>

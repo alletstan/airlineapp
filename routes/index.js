@@ -54,4 +54,16 @@ router.get('/hotels.html', function(req, res, next) {
   res.render('hotels', {});
 });
 
+router.get('/shopping.html', function(req, res, next) {
+  res.render('shopping', {});
+});
+
+router.get('/activities.html', function(req, res, next) {
+  res.render('activities', {});
+});
+
+router.get('/dining.html', function(req, res, next) {
+  res.render('dining', {});
+});
+
 module.exports = router;
