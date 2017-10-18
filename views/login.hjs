@@ -5,20 +5,7 @@
   <link rel="stylesheet" href="onsen-ui/css/onsen-css-components.min.css">
   <script src="onsen-ui/js/onsenui.min.js"></script>
   <script src="javascripts/splitter.menu.js"></script>
-  <script>
-    var login = function() {
-      var username = document.getElementById('username').value;
-      var password = document.getElementById('password').value;
-
-      if (username === 'a' && password === 'a') {
-        ons.notification.alert('Congratulations!');
-        document.querySelector('#mainNavigator').pushPage('main.html');
-      }
-      else {
-        ons.notification.alert('Incorrect username or password.');
-      }
-    };
-  </script>
+  <script src="javascripts/login.script.js"></script>
 </head>
 <body>
   <ons-navigator id="mainNavigator" animation="slide" swipeable var="myNavigator">
