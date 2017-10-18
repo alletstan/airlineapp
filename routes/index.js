@@ -16,10 +16,6 @@ router.get('/about.html', function(req, res, next) {
   res.render('about', {});
 });
 
-router.get('/qrCode.html', function(req, res, next) {
-  res.render('qrCode', {});
-});
-
 router.get('/packageDetails.html', function(req, res, next) {
   res.render('packageDetails', {});
 });

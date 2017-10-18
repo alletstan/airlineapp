@@ -6,9 +6,6 @@
           <ons-list-item onclick="fn.load('home.html')" tappable>
             Home
           </ons-list-item>
-          <ons-list-item onclick="fn.load('qrCode.html')" tappable>
-            QR Code
-          </ons-list-item>
           <ons-list-item onclick="fn.load('packageDetails.html')" tappable>
             Package Details
           </ons-list-item>
@@ -54,9 +51,14 @@
           Main
         </div>
       </ons-toolbar>
-      <p style="text-align: center; opacity: 0.6; padding-top: 20px;">
-        Swipe right to open the menu!
-      </p>
+
+      <div style="text-align: center;">
+        <p style="opacity: 0.6; padding-top: 20px;">
+        You do not have a valid package. Sign up for one now!
+        </p>
+        <ons-button onclick="fn.load('packageDetails.html')">Sign up for package</ons-button>
+      </div>
+
     </ons-page>
   </template>
 </ons-page>
