@@ -54,14 +54,16 @@
       <br>
       <img src="pictures/concordeHotel.jpg" alt="Concorde Hotel Singapore" style="width:100%;height:auto;" align="middle">
     </center>
-    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:18px;">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:20px;font-family:verdana;">
       Concorde Hotel Singapore
       <br>
-      <!-- <p>&#9733;&#9733;&#9733;&#9733;</p> -->
+      <p>&#9733;&#9733;&#9733;&#9733;&#9734;</p>
     </p>
-    <button class="button" href="http://map.google.com/?q=100+Orchard+Road">100 Orchard Road</button>
-    <button class="button" href="tel:+65-6733-8855">+65-6733-8855</button>
-    <button class="button" href="http://singapore.concordehotelsresorts.com/">Concorde Hotels website</button>
+    <a href="http://map.google.com/?q=100+Orchard+Road">100 Orchard Road</a>
+    <br>
+    <a href="tel:+65-6733-8855">+65-6733-8855</a>
+    <br>
+    <a href="http://singapore.concordehotelsresorts.com/">Concorde Hotels website</a>
     <br><br>
   </div>
 
