@@ -9,7 +9,6 @@
   <script src="javascripts/splitter.menu.js"></script>
   <script src="javascripts/login.script.js"></script>
   <script src="javascripts/logout.script.js"></script>
-
 </head>
 <body>
   <ons-navigator id="mainNavigator" animation="slide" swipeable var="myNavigator">

@@ -8,6 +8,7 @@ var session = require('express-session')
 var mongoose = require('mongoose');
 
 var index = require('./routes/index');
+var backendApi = require('./routes/api');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(session({ secret: 'secret', saveUninitialized: true, resave: false}))
 
 app.use('/', index);
+app.use('/api', backendApi);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
