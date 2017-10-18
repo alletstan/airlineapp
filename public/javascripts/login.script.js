@@ -1,3 +1,24 @@
+$(document).ready(function() {
+  GoToMainIfLogin();
+});
+
+var GoToMainIfLogin = function(){
+
+  $.ajax({
+    type: "GET",
+    url: '/checkiflogin',
+    success: function(data, status){
+      if(data.islogin){
+        document.querySelector('#mainNavigator').resetToPage('main.html');
+      }
+    },
+    error: function(err, xhr) {
+      console.log(err);
+    }
+  });
+
+}
+
 var login = function() {
 
   var username = document.getElementById('username').value;

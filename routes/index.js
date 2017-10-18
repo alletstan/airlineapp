@@ -22,6 +22,14 @@ router.post('/login', function(req, res) {
 
 });
 
+router.get('/checkiflogin', function(req, res, next) {
+    if(req.session.user){
+      res.json({islogin: true});
+    }else{
+      res.json({islogin: false});
+    }
+});
+
 router.get('/logout', function(req, res, next) {
   req.session.user = null;
   res.status(200).send();
