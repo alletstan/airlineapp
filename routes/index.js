@@ -1,16 +1,35 @@
 var express = require('express');
+var session = require('express-session');
+var bodyParser = require('body-parser');
 var router = express.Router();
 
-/* GET home page. */
+/* LOGIN PAGE */
 router.get('/', function(req, res, next) {
-  res.render('login', { title: 'Express' });
+  res.render('login', {});
 });
 
-router.get('/logout.html', function(req, res, next) {
-  res.render('logout', {});
+router.post('/login', function(req, res) {
+
+  let username = req.body.username;
+  let password = req.body.password;
+
+  if((username == 'a') && (password == 'a')){
+    req.session.user = "validuser";
+    res.status(200).send();
+  }else{
+    res.status(401).send();
+  }
+
+});
+
+router.get('/logout', function(req, res, next) {
+  req.session.user = null;
+  res.status(200).send();
 });
 
 router.get('/main.html', function(req, res, next) {
+  if(!req.session.user){ res.redirect('/'); }
+
   res.render('main', {});
 });
 
