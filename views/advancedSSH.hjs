@@ -35,10 +35,11 @@
 </head>
 <body>
   <div class="vertical-menu">
-    <a onclick="fn.load('basicRates.html')">View Rates</a>
+    <a onclick="fn.load('advancedRates.html')">View Rates</a>
     <a onclick="fn.load('hotels.html')">List of Hotels</a>
     <a onclick="fn.load('bookConditions.html')">Booking Conditions</a>
-    <a href="https://www.singaporeair.com/en_UK/plan-and-book/flight-search/">Book a Basic Singapore Stopover Holiday!</a>
+    <a onclick="fn.load('attractions.html')">Singapore Stopover Holiday Package Attractions</a>
+    <a href="https://www.singaporeair.com/en_UK/plan-and-book/flight-search/">Book Singapore Stopover Holiday!</a>
   </div>
 </body>
 

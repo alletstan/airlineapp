@@ -44,6 +44,18 @@ router.get('/basicSSH.html', function(req, res, next) {
   res.render('basicSSH', {});
 });
 
+router.get('/basicRates.html', function(req, res, next) {
+  res.render('basicRates', {});
+});
+
+router.get('/advancedSSH.html', function(req, res, next) {
+  res.render('advancedSSH', {});
+});
+
+router.get('/advancedRates.html', function(req, res, next) {
+  res.render('advancedRates', {});
+});
+
 router.get('/hotels.html', function(req, res, next) {
   res.render('hotels', {});
 });
