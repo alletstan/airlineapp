@@ -46,4 +46,12 @@ router.get('/usefulContacts.html', function(req, res, next) {
   res.render('usefulContacts', {});
 });
 
+router.get('/basicSSH.html', function(req, res, next) {
+  res.render('basicSSH', {});
+});
+
+router.get('/hotels.html', function(req, res, next) {
+  res.render('hotels', {});
+});
+
 module.exports = router;

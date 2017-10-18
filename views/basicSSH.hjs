@@ -1,0 +1,45 @@
+<ons-page>
+  <ons-toolbar>
+    <div class="left">
+      <ons-toolbar-button onclick="fn.open()">
+        <ons-icon icon="md-menu"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+    <div class="center">
+      Basic Singapore Stopover Holiday
+    </div>
+  </ons-toolbar>
+  <head>
+  <style>
+  .vertical-menu {
+    width: 100%auto;
+  }
+
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+
+  .vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  </style>
+</head>
+<body>
+  <div class="vertical-menu">
+    <a onclick="fn.load('hotels.html')">List of Hotels</a>
+    <a onclick="fn.load('bookConditions.html')">Booking Conditions</a>
+    <a href="https://www.singaporeair.com/en_UK/plan-and-book/flight-search/">Book a Basic Singapore Stopover Holiday!</a>
+    <a onclick="fn.load('packageDetails.html')">Back to Package Details</a>
+  </div>
+</body>
+
+</ons-page>
