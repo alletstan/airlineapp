@@ -4,8 +4,12 @@
   <link rel="stylesheet" href="onsen-ui/css/onsenui.css">
   <link rel="stylesheet" href="onsen-ui/css/onsen-css-components.min.css">
   <script src="onsen-ui/js/onsenui.min.js"></script>
+  <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+
   <script src="javascripts/splitter.menu.js"></script>
   <script src="javascripts/login.script.js"></script>
+  <script src="javascripts/logout.script.js"></script>
+
 </head>
 <body>
   <ons-navigator id="mainNavigator" animation="slide" swipeable var="myNavigator">
