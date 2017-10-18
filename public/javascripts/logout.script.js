@@ -2,7 +2,7 @@ var logout = function() {
 
   $.ajax({
     type: "GET",
-    url: '/logout',
+    url: '/api/logout',
     success: function(status){
       window.location = "/";
     },

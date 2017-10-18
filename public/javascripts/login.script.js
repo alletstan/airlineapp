@@ -6,7 +6,7 @@ var GoToMainIfLogin = function(){
 
   $.ajax({
     type: "GET",
-    url: '/checkiflogin',
+    url: '/api/checkiflogin',
     success: function(data, status){
       if(data.islogin){
         document.querySelector('#mainNavigator').resetToPage('main.html');
@@ -29,7 +29,7 @@ var login = function() {
   $.ajax({
     type: "POST",
     data: payload,
-    url: '/login',
+    url: '/api/login',
     success: function(status){
       document.querySelector('#mainNavigator').resetToPage('main.html');
     },
