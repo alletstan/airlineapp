@@ -52,4 +52,12 @@ router.get('/hotels.html', function(req, res, next) {
   res.render('hotels', {});
 });
 
+router.get('/bookConditions.html', function(req, res, next) {
+  res.render('bookConditions', {});
+});
+
+router.get('/vouchers.html', function(req, res, next) {
+  res.render('vouchers', {});
+});
+
 module.exports = router;

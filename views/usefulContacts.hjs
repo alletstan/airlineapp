@@ -17,7 +17,7 @@
       </div>
       <div class="center">
         <span class="list-item__title">Emergency Ambulance and Fire</span>
-        <span class="list-item__subtitle">995</span>
+        <span class="list-item__subtitle"><a href="tel:995">995</a></span>
       </div>
     </ons-list-item>
 
@@ -27,7 +27,7 @@
       </div>
       <div class="center">
         <span class="list-item__title">Non-Emergency Ambulance</span>
-        <span class="list-item__subtitle">1777</span>
+        <span class="list-item__subtitle"><a href="tel:1777">1777</a></span>
       </div>
     </ons-list-item>
 
@@ -37,7 +37,7 @@
       </div>
       <div class="center">
         <span class="list-item__title">Police Emergency</span>
-        <span class="list-item__subtitle">999</span>
+        <span class="list-item__subtitle"><a href="tel:999">999</a></span>
       </div>
     </ons-list-item>
 
@@ -47,7 +47,7 @@
       </div>
       <div class="center">
         <span class="list-item__title">Police Hotline</span>
-        <span class="list-item__subtitle">1800 255 0000</span>
+        <span class="list-item__subtitle"><a href="tel:1800 255 0000">1800 255 0000</a></span>
       </div>
     </ons-list-item>
 
@@ -57,7 +57,7 @@
       </div>
       <div class="center">
         <span class="list-item__title">SIA Customer Service</span>
-        <span class="list-item__subtitle">6223 8888</span>
+        <span class="list-item__subtitle"><a href="tel:6223 8888">6223 8888</a></span>
       </div>
     </ons-list-item>
 
@@ -67,7 +67,7 @@
       </div>
       <div class="center">
         <span class="list-item__title">Weather</span>
-        <span class="list-item__subtitle">6542 7788</span>
+        <span class="list-item__subtitle"><a href="tel:6542 7788">6542 7788</a></span>
       </div>
     </ons-list-item>
 
