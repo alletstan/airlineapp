@@ -10,42 +10,12 @@
     </div>
   </ons-toolbar>
 
-  <style>
-  .flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    width: 100%auto;
-    height: 100%;
-    background-color: lightgrey;
-  }
-
-  .flex-item {
-    flex:auto;
-    background-color: cornflowerblue;
-    width: 50%;
-    margin: 5px;
-  }
-  </style>
-</head>
-<body>
-
-  <div class="flex-container">
-    <div class="flex-item">Emergency Ambulance and Fire<br>995</div>
-    <div class="flex-item">Non-Emergency Ambulance<br>1777</div>
-    <div class="flex-item">Police Emergency<br>999</div>
-    <div class="flex-item">Police Hotline<br>1800 255 0000</div>
-    <div class="flex-item">SIA Customer Service<br>6223 8888</div>
-    <div class="flex-item">Weather<br>6542 7788</div>
-  </div>
-
-</body>
+  <ons-list>
+    <ons-list-item>Emergency Ambulance and Fire<br>995</ons-list-item>
+    <ons-list-item>Non-Emergency Ambulance<br>1777</ons-list-item>
+    <ons-list-item>Police Emergency<br>999</ons-list-item>
+    <ons-list-item>Police Hotline<br>1800 255 0000</ons-list-item>
+    <ons-list-item>SIA Customer Service<br>6223 8888</ons-list-item>
+    <ons-list-item>Weather<br>6542 7788</ons-list-item>
+  </ons-list>
 </ons-page>
