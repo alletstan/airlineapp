@@ -11,11 +11,23 @@
   </ons-toolbar>
 
   <ons-list>
-    <ons-list-item>Emergency Ambulance and Fire<br>995</ons-list-item>
-    <ons-list-item>Non-Emergency Ambulance<br>1777</ons-list-item>
-    <ons-list-item>Police Emergency<br>999</ons-list-item>
-    <ons-list-item>Police Hotline<br>1800 255 0000</ons-list-item>
-    <ons-list-item>SIA Customer Service<br>6223 8888</ons-list-item>
-    <ons-list-item>Weather<br>6542 7788</ons-list-item>
+    <ons-list-item>
+      <a href="tel:995">Emergency Ambulance and Fire<br>995</a>
+    </ons-list-item>
+    <ons-list-item>
+      <a href="tel:1777">Non-Emergency Ambulance<br>1777</a>
+    </ons-list-item>
+    <ons-list-item>
+      <a href="tel:999">Police Emergency<br>999</a>
+    </ons-list-item>
+    <ons-list-item>
+      <a href="tel:1800 255 0000">Police Hotline<br>1800 255 0000</a>
+    </ons-list-item>
+    <ons-list-item>
+      <a href="tel:6223 8888">SIA Customer Service<br>6223 8888</a>
+    </ons-list-item>
+    <ons-list-item>
+      <a href="tel:6542 7788">Weather<br>6542 7788</a>
+    </ons-list-item>
   </ons-list>
 </ons-page>
