@@ -11,11 +11,65 @@
   </ons-toolbar>
 
   <ons-list>
-    <ons-list-item>Emergency Ambulance and Fire<br>995</ons-list-item>
-    <ons-list-item>Non-Emergency Ambulance<br>1777</ons-list-item>
-    <ons-list-item>Police Emergency<br>999</ons-list-item>
-    <ons-list-item>Police Hotline<br>1800 255 0000</ons-list-item>
-    <ons-list-item>SIA Customer Service<br>6223 8888</ons-list-item>
-    <ons-list-item>Weather<br>6542 7788</ons-list-item>
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Emergency Ambulance and Fire</span>
+        <span class="list-item__subtitle">995</span>
+      </div>
+    </ons-list-item>
+
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Non-Emergency Ambulance</span>
+        <span class="list-item__subtitle">1777</span>
+      </div>
+    </ons-list-item>
+
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Police Emergency</span>
+        <span class="list-item__subtitle">999</span>
+      </div>
+    </ons-list-item>
+
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Police Hotline</span>
+        <span class="list-item__subtitle">1800 255 0000</span>
+      </div>
+    </ons-list-item>
+
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">SIA Customer Service</span>
+        <span class="list-item__subtitle">6223 8888</span>
+      </div>
+    </ons-list-item>
+
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Weather</span>
+        <span class="list-item__subtitle">6542 7788</span>
+      </div>
+    </ons-list-item>
+
   </ons-list>
 </ons-page>
