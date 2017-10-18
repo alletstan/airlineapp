@@ -28,7 +28,7 @@
             <div class="center">
               Attractions
             </div>
-          </ons-list-item>
+            </ons-list-item>
 
           <ons-list-item onclick="fn.load('specialEvents.html')" tappable>
             <div class="left">
@@ -73,7 +73,7 @@
             <div class="center">
               Log Out
             </div>
-          </ons-list-item>
+            </ons-list-item>
 
           <ons-list-item onclick="fn.load('about.html')" tappable>
             <div class="left">
@@ -92,6 +92,7 @@
               Vouchers
             </div>
             </ons-list-item>
+
         </ons-list>
       </ons-page>
     </ons-splitter-side>
