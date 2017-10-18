@@ -10,42 +10,66 @@
     </div>
   </ons-toolbar>
 
-  <style>
-  .flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  <ons-list>
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Emergency Ambulance and Fire</span>
+        <span class="list-item__subtitle"><a href="tel:995">995</a></span>
+      </div>
+    </ons-list-item>
 
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    width: 100%auto;
-    height: 100%;
-    background-color: lightgrey;
-  }
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Non-Emergency Ambulance</span>
+        <span class="list-item__subtitle"><a href="tel:1777">1777</a></span>
+      </div>
+    </ons-list-item>
 
-  .flex-item {
-    flex:auto;
-    background-color: cornflowerblue;
-    width: 50%;
-    margin: 5px;
-  }
-  </style>
-</head>
-<body>
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Police Emergency</span>
+        <span class="list-item__subtitle"><a href="tel:999">999</a></span>
+      </div>
+    </ons-list-item>
 
-  <div class="flex-container">
-    <div class="flex-item">Emergency Ambulance and Fire<br><a href="tel:995">995</a></div>
-    <div class="flex-item">Non-Emergency Ambulance<br><a href="tel:1777">1777</a></div>
-    <div class="flex-item">Police Emergency<br><a href="tel:999">999</a></div>
-    <div class="flex-item">Police Hotline<br><a href="tel:1800 255 0000">1800 255 0000</a></div>
-    <div class="flex-item">SIA Customer Service<br><a href="tel:6223 8888">6223 8888</a></div>
-    <div class="flex-item">Weather<br><a href="tel:6542 7788">6542 7788</a></div>
-  </div>
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Police Hotline</span>
+        <span class="list-item__subtitle"><a href="tel:1800 255 0000">1800 255 0000</a></span>
+      </div>
+    </ons-list-item>
 
-</body>
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">SIA Customer Service</span>
+        <span class="list-item__subtitle"><a href="tel:6223 8888">6223 8888</a></span>
+      </div>
+    </ons-list-item>
+
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Weather</span>
+        <span class="list-item__subtitle"><a href="tel:6542 7788">6542 7788</a></span>
+      </div>
+    </ons-list-item>
+
+  </ons-list>
 </ons-page>

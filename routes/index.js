@@ -1,13 +1,11 @@
 var express = require('express');
+var session = require('express-session');
+var bodyParser = require('body-parser');
 var router = express.Router();
 
-/* GET home page. */
+/* LOGIN PAGE */
 router.get('/', function(req, res, next) {
-  res.render('login', { title: 'Express' });
-});
-
-router.get('/logout.html', function(req, res, next) {
-  res.render('logout', {});
+  res.render('login', {});
 });
 
 router.get('/main.html', function(req, res, next) {
@@ -16,10 +14,6 @@ router.get('/main.html', function(req, res, next) {
 
 router.get('/about.html', function(req, res, next) {
   res.render('about', {});
-});
-
-router.get('/qrCode.html', function(req, res, next) {
-  res.render('qrCode', {});
 });
 
 router.get('/packageDetails.html', function(req, res, next) {
@@ -50,6 +44,18 @@ router.get('/basicSSH.html', function(req, res, next) {
   res.render('basicSSH', {});
 });
 
+router.get('/basicRates.html', function(req, res, next) {
+  res.render('basicRates', {});
+});
+
+router.get('/advancedSSH.html', function(req, res, next) {
+  res.render('advancedSSH', {});
+});
+
+router.get('/advancedRates.html', function(req, res, next) {
+  res.render('advancedRates', {});
+});
+
 router.get('/hotels.html', function(req, res, next) {
   res.render('hotels', {});
 });
@@ -64,6 +70,14 @@ router.get('/activities.html', function(req, res, next) {
 
 router.get('/dining.html', function(req, res, next) {
   res.render('dining', {});
+});
+
+router.get('/bookConditions.html', function(req, res, next) {
+  res.render('bookConditions', {});
+});
+
+router.get('/vouchers.html', function(req, res, next) {
+  res.render('vouchers', {});
 });
 
 module.exports = router;

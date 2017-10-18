@@ -81,7 +81,7 @@
         <br>
         The package includes a one-night hotel stay, return airport transfers, complimentary rides on the SIA Hop-on Bus, and admission to over 15 tourist attractions.
       </p>
-      <button class="button">Click me for more details!</button>
+      <button class="button" onclick="fn.load('advancedSSH.html')">Click me for more details!</button>
       <br><br>
 
     </div>

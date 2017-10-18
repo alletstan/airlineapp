@@ -6,8 +6,7 @@
       </ons-toolbar-button>
     </div>
     <div class="center">
-      Log Out
+      Singapore Stopover Holiday Rates
     </div>
   </ons-toolbar>
-  <h1> Good Bye! </h1>
 </ons-page>
