@@ -42,8 +42,8 @@ router.get('/lepak.html', function(req, res, next) {
   res.render('lepak', {});
 });
 
-router.get('/emergencyContacts.html', function(req, res, next) {
-  res.render('emergencyContacts', {});
+router.get('/usefulContacts.html', function(req, res, next) {
+  res.render('usefulContacts', {});
 });
 
 module.exports = router;
