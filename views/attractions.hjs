@@ -40,15 +40,25 @@ div.panel {
 
   <p style="text-align: center; opacity: 1; padding-top: 0px; font-size:20px;">
     Attractions in Singapore
+    <br>
+  </p>
+  <center>
+    <img src="merlion-logo.jpg" alt="MerlionLogo" style="width:30%;height:auto;" align="middle">
+  </center>
+  <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+
+    Whether you’re passing through Singapore, or visiting the garden city as your
+    holiday destination, add the Singapore Explorer Pass to your booking and to enjoy
+     one-time access to more than 20 attractions and benefits over the duration of your pass:
   </p>
 
+<!–– Chinatown Food Street ––>
 <button class="accordion">Chinatown Food Street</button>
 <div class="panel">
-  <!–– Chinatown Food Street ––>
   <center>
     <br>
     <img src="chinatown-walking-tour.jpg" alt="ChinaTown" style="width:100%;height:auto;" align="middle">
-    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:2em; margin-right:2em;">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
       Located on Smith Street in the heart of Chinatown, the revitalised Chinatown Food Street
       seeks to create an authentic dining experience for locals and tourists alike. From a
       tantalising plate of Char Kway Teow, to sticks of mouthwatering Satays, the Chinatown
@@ -59,20 +69,23 @@ div.panel {
       <br><br>
       Regular admission fee: S$5 Adult / S$5 Child
       <br><br>
-      7 Smith Street        www.chinatownfoodstreet.sg
-      <br><br><br>
+      <a href="https://www.google.com.sg/maps/place/Chinatown+Food+Street/@1.2820191,103.8424385,17z/data=%213m1%214b1%214m2%213m1%211s0x31da1972d59de865:0x43f64d1326e0c52c">
+        7 Smith Street</a>
+      <br><br>
+      <a href="http://www.chinatownfoodstreet.sg">
+        www.chinatownfoodstreet.sg</a>
+      <br><br>
     </p>
   </center>
-
 </div>
 
+<!–– Chinatown Heritage Center ––>
 <button class="accordion">Chinatown Heritage Center</button>
 <div class="panel">
-  <!–– Chinatown Heritage Center ––>
   <center>
     <br>
     <img src="chinatown-heritage-centre.jpg" alt="ChinaTownHeriCen" style="width:100%;height:auto;" align="middle">
-    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:2em; margin-right:2em;">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
       Experience the lives of Singapore’s pioneers in their humble shophouse cubicles
       recreated only at the Chinatown Heritage Centre. Join the character-guided tours
       and discover the personal stories of Chinatown’s early residents.
@@ -81,17 +94,449 @@ div.panel {
       <br><br>
       Regular admission fee: S$15 Adult / S$11 Child
       <br><br>
-      48 Pagoda Street, Singapore 059207         www.chinatownheritagecentre.com.sg
-      <br><br><br>
+      <a href="https://www.google.com.sg/maps/place/Chinatown+Heritage+Centre/@1.2835084,103.8421627,17z/data=!4m13!1m7!3m6!1s0x31da197349366083:0x37eaefbc3069b963!2s48+Pagoda+St,+Singapore+059207!3b1!8m2!3d1.2835084!4d103.8443514!3m4!1s0x31da1973493ae8dd:0x26539d86b7ad1b0b!8m2!3d1.2835085!4d103.8443515">
+        48 Pagoda Street, Singapore 059207</a>
+      <br><br>
+      <a href="http://www.chinatownheritagecentre.com.sg">
+         www.chinatownheritagecentre.com.sg</a>
+      <br><br>
     </p>
   </center>
-
 </div>
 
-<button class="accordion">Section 3</button>
+<!–– Gardens By the Bay ––>
+<button class="accordion">Gardens By the Bay</button>
 <div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <center>
+    <br>
+    <img src="gardens-bythe-bay.jpg" alt="GBTB" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      Showcasing the best of horticulture, sustainability and architectural design,
+      Gardens by the Bay is a must-see destination filled with wonders from around
+      the world. Marvel at the 35-metre tall indoor waterfall in the Cloud Forest and
+      admire colourful floral displays in the cool comfort of the Flower Dome.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$28 Adult / S$15 Child
+      <br><br>
+      <a href="https://www.google.com/maps/place/18+Marina+Gardens+Drive,+Singapore+018953">
+        18 Marina Gardens Drive, Singapore 018953</a>
+      <br><br>
+      <a href="http://www.gardensbythebay.com.sg">
+             www.gardensbythebay.com.sg</a>
+      <br><br>
+    </p>
+  </center>
 </div>
+
+<!–– Indian Heritage Centre ––>
+<button class="accordion">Indian Heritage Centre</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="indian-heritage-centre.jpg" alt="IndianHeriCen" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      The Indian Heritage Centre traces the history of the Indian and South Asian communities
+       in the Southeast Asian region. Located in the Little India Heritage District, the centre
+        houses two permanent galleries, small scale museum facilities, a museum shop as well as
+         programming and activity spaces.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$6 Adult / S$4 Child
+      <br><br>
+      <a href="https://www.google.com.sg/maps/place/Indian+Heritage+Centre/@1.3056816,103.8500719,17z/data=!3m2!4b1!5s0x31da19b8e14ca59f:0xa6148b0e730cc904!4m5!3m4!1s0x31da19b8dc4e2895:0xbb8d3e8ae15f79e1!8m2!3d1.3056816!4d103.8522606">
+        5 Campbell Lane, Singapore 209924</a>
+      <br><br>
+      <a href="http://www.indianheritage.org.sg">
+             www.indianheritage.org.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– Jurong Bird Park ––>
+<button class="accordion">Jurong Bird Park</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="jurong-bird-park.jpg" alt="JurongBP" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      See some 5,000 bird across 400 species fly, swim and roam freely in their naturalistic habitats, including 4
+       large free-flight aviaries at Asia’s largest bird paradise. Come up close with these feathered residents and
+       be tickled by their show-stopping antics.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$34 Adult / S$22 Child
+      <br><br>
+      <a href="https://www.google.com/maps/place/2+Jurong+Hill,+Singapore+628925">
+        2 Jurong Hill, Singapore 628925</a>
+      <br><br>
+      <a href="http://www.birdpark.com.sg">
+              www.birdpark.com.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– Lee Kong Chian Natural History Museum ––>
+<button class="accordion">Lee Kong Chian Natural History Museum</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="16LKC-natural-history-museum.jpg" alt="LKC" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      Get acquainted with the incredible world of biodiversity at Singapore’s first and only natural history
+       museum! Experience the biologically diverse ecosystem of Southeast Asia through the specimens and
+       interactive displays at the two galleries. Be awed by the three real and gigantic dinosaurs and learn
+       more about the Singapore Whale.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$21 Adult / S$13 Child
+      <br><br>
+
+
+
+
+
+      <a href="https://www.google.com.sg/maps/place/Lee+Kong+Chian+Natural+History+Museum/@1.3015641,103.7714723,17z/data=%213m1%214b1%214m2%213m1%211s0x31da1af649a3c895:0xf1cf69b90fc29d19">
+        2 Conservatory Drive, Singapore 117377</a>
+      <br><br>
+      <a href="http://lkcnhm.nus.edu.sg">
+              lkcnhm.nus.edu.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– Malay Heritage Centre ––>
+<button class="accordion">Malay Heritage Centre</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="malay-heritage-centre.jpg" alt="MalayHeritageCen" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      The Malay Heritage Centre showcases the history, culture and contributions of the Malay community within
+       the context of Singapore’s multi-cultural society. It houses a collection of artefacts that focuses on
+        Kampong Gelam’s past as a bustling port town integral to the development of the Malay community.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$6 Adult / S$4 Child
+      <br><br>
+      <a href="https://www.google.com/maps/place/85+Sultan+Gate,+Singapore+198501">
+        85 Sultan Gate, Singapore 198501</a>
+      <br><br>
+      <a href="http://www.malayheritage.org.sg">
+               www.malayheritage.org.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– MINT Museum of Toys ––>
+<button class="accordion">MINT Museum of Toys</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="mint-museum-of-toys.jpg" alt="MintMuseum" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      With exhibits ranging from the 1840s to the 1980s and collected from over 40 countries,
+      turn back time and embark on this nostalgic journey of rediscovery and imagination at MINT
+       Museum of Toys. From familiar characters to favourite childhood playthings, be awe-inspired by
+       the rich collection of toys from past decades.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$15 Adult / S$7.50 Child
+      <br><br>
+      <a href="https://www.google.com/maps/place/26+Seah+Street,+Singapore+188382">
+        26 Seah Street, Singapore 188382</a>
+      <br><br>
+      <a href="http://www.emint.com">www.emint.com</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– National Gallery Singapore ––>
+<button class="accordion">National Gallery Singapore</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="19 national-gallery-singapore.jpg" alt="NationalGall" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      The National Gallery Singapore has been beautifully restored and transformed from two
+      national monuments into the latest visual arts venue in Singapore. The Gallery will engage
+       and inspire all with its largest public collection of modern Singapore and Southeast Asian art.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$20 Adult/S$15 Child
+      <br><br>
+      <a href="https://www.google.com.sg/maps/place/National+Gallery+Singapore/@1.2902984,103.8494413,17z/data=%213m1%214b1%214m2%213m1%211s0x31da19a747de0c15:0xe5639e25fabece80">
+        1 St. Andrew's Road, Singapore 178957</a>
+      <br><br>
+      <a href="http://www.nationalgallery.sg">www.nationalgallery.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– National Museum of Singapore< ––>
+<button class="accordion">National Museum of Singapore</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="national-museum-singapore.jpg" alt="NationalMusuem" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      The National Museum of Singapore is the nation’s oldest museum with a progressive mind. Its galleries adopt
+       cutting-edge and multi-perspective ways of presenting history and culture to redefine the conventional museum experience.
+        Journey through 700 years of Singapore’s history and explore over 1,700 historical and cultural artefacts in the
+        museum’s permanent galleries.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$15 Adult / S$10 Child
+      <br><br>
+      <a href="https://www.google.com.sg/maps/place/National+Museum/@1.2966375,103.8464759,17z/data=!3m1!4b1!4m5!3m4!1s0x31da19a311be5b0f:0x92e311597c4db868!8m2!3d1.2966375!4d103.8486646">
+        93 Stamford Road, Singapore 178897</a>
+      <br><br>
+      <a href="http://www.nationalmuseum.sg"> www.nationalmuseum.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– National Orchid Garden< ––>
+<button class="accordion">National Orchid Garden</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="national-orchid-centre.jpg" alt="NationalOG" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      The National Orchid Garden is located on the highest hill of the Singapore Botanic Gardens. Three hectares of
+      carefully landscaped slopes provide a setting for over 1,000 species and 2,000 hybrids of orchid, with about
+      600 species and hybrids  on display.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$5 Adult / Free for Child
+      <br><br>
+      <a href="https://www.google.com/maps/place/1+Cluny+Road,+Singapore+259569">
+        1 Cluny Road, Singapore 259569</a>
+      <br><br>
+      <a href="http://www.sbg.org.sg"> www.sbg.org.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– Night Safari< ––>
+<button class="accordion">Night Safari</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="night-safari.jpg" alt="NightSafari" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      Get an up-close and personal encounter with over 2,500 nocturnal wildlife when you take a guided tram tour at
+      the Night Safari. Explore six geographical zones including the Himalayan Foothills, the Asian Riverine Forest
+      and the Indian Subcontinent. Conclude your adventure with the Creatures of the Night Show, which features
+      an amazing line-up of animals.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$45 Adult / S$30 Child
+      <br><br>
+      <a href="https://www.google.com.sg/maps/place/Night+Safari/@1.4021872,103.7858719,17z/data=!3m1!4b1!4m5!3m4!1s0x31da13d7882e15f7:0x6ff144ead852d1e3!8m2!3d1.4021872!4d103.7880606">
+        80 Mandai Lake Road, Singapore 729826</a>
+      <br><br>
+      <a href="http://www.nightsafari.com.sg">  www.nightsafari.com.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– Sentosa< ––>
+<button class="accordion">Sentosa</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="sentosa.jpg" alt="Sentosa" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      Family fun takes on a new meaning at Singapore’s premier island resort, Sentosa – The State of Fun.
+      Beyond pristine beaches and delectable eateries, there are also world-class attractions you can enjoy.
+      Present your Singapore Stopover Holiday card for free admission to Sentosa together with your choice of 2
+out of 9 attractions: Sentosa Merlion, Wings of Time, Sentosa 4D Adventureland, GoGreen Bi-Pedal Bicycle Ride,
+GoGreen Segway Fun Ride, Tiger Sky Tower, Skyline Luge Sentosa, Butterfly Park & Insect Kingdom, and MOSH!
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee:–<br>
+      Sentosa: S$4<br>
+      Sentosa Merlion: S$12 Adult / S$9 Child<br>
+      Wings of Time (Standard seat): S$18 per person<br>
+      Sentosa 4D Adventureland: S$20.90 per person<br>
+      Tiger Sky Tower: S$18 Adult / S$10 Child<br>
+      Gogreen® Bi-pedal Bicycle (60 minutes’ rental): S$12 per person<br>
+      Gogreen® Segway Fun Ride: S$15 per person<br>
+      Skyline Luge & Skyride: S$18 per person<br>
+      Butterfly Park & Insect Kingdom: S$16 / S$10 Child<br>
+      MOSH!: S$28 Adult / S$22 Child
+      <br><br>
+      <a href="http://www.sentosa.com.sg">  www.sentosa.com.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– Singapore Cable Car< ––>
+<button class="accordion">Singapore Cable Car</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="singapore-cable-car.jpg" alt="CableCar" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      Connect between two attractions with the Singapore Cable Car. Go for the lush greens of Faber Peak Singapore
+      on the Mount Faber Line or fly across Singapore’s State of Fun on the Sentosa Line.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$33 Adult / S$22 Child
+      <br><br>
+      <a href="https://www.google.com.sg/maps/place/Singapore+Cable+Car/@1.2711414,103.8174173,17z/data=!4m13!1m7!3m6!1s0x31da1bdfdb5d267f:0xc7b984b3d4a9cf73!2s109+Mount+Faber+Rd,+Singapore+099203!3b1!8m2!3d1.2711414!4d103.819606!3m4!1s0x31da1ead00000001:0xe147483e211e5430!8m2!3d1.2711414!4d103.819606">
+        109 Mount Faber Road, Singapore 099203</a>
+      <br><br>
+      <a href="http://www.faberpeaksingapore.com">www.faberpeaksingapore.com</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– Singapore Flyer< ––>
+<button class="accordion">Singapore Flyer</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="singapore-flyer.jpg" alt="SgFlyer" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      The Singapore Flyer is one of the world’s largest Giant Observation wheels. Its 28 capsules are air-conditioned
+      and UV light-protected, allowing you to enjoy unobstructed views of Singapore’s cityscape and beyond. Be wowed
+       by the feast of visual landmarks and modern skyscrapers of dynamic Singapore at different altitudes and angles.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$33 Adult / S$21 Child
+      <br><br>
+      <a href="https://www.google.com.sg/maps/place/Singapore+Flyer/@1.2892988,103.8609481,17z/data=!3m1!4b1!4m5!3m4!1s0x31da19a936c551cd:0x7fb4e58ad9cd826e!8m2!3d1.2892988!4d103.8631368">
+        30 Raffles Avenue, Singapore 039803</a>
+      <br><br>
+      <a href="http://www.singaporeflyer.com"> www.singaporeflyer.com</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– Singapore Philatelic Museum< ––>
+<button class="accordion">Singapore Philatelic Museum</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="singapore-philatelic-museum.jpg" alt="SgPhilatelicMuseum" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      Come and discover how postage stamps are windows to a country’s history, heritage, culture and milestones, in
+      family-friendly galleries! The museum proudly showcases Singapore’s rich philatelic heritage and postal artefacts
+       from 1830s to today.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$8 Adult / S$6 Child
+      <br><br>
+      <a href="https://www.google.com/maps/place/23B+Coleman+Street,+Singapore+179807">
+        23-B Coleman Street, Singapore 179807</a>
+      <br><br>
+      <a href="http://www.spm.org.sg"> www.spm.org.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– Singapore River Cruise< ––>
+<button class="accordion">Singapore River Cruise</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="singapore-river-cruise.jpg" alt="SgRiverCruise" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      Embark on a scenic boat ride along the Singapore River and be in for a treat as the cruise sails past illustrious
+       areas, such as Clarke Quay, Boat Quay and Marina Bay. Look out for the iconic Marina Bay Sands, Merlion Park and
+       Esplanade — Theatres on the Bay as well.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$25 Adult / S$15 Child
+      <br><br>
+      <a href="https://www.google.com.sg/maps/place/3E+River+Valley+Rd,+Singapore+179024/@1.290668,103.8440163,17z/data=!3m1!4b1!4m5!3m4!1s0x31da19a038892941:0xff797db0fe8a257a!8m2!3d1.290668!4d103.846205">
+      Blk 3e River Valley Road, Singapore 179024</a>
+      <br><br>
+      <a href="http://www.rivercruise.com.sg">  www.rivercruise.com.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– Singapore Zoo< ––>
+<button class="accordion">Singapore Zoo</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="singapore-zoo.jpg" alt="SgZoo" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      The Singapore Zoo’s world famous “open concept” offers the opportunity to experience and be inspired by more
+      than 2,800 animals from over 300 species. Come witness the wonders of natures at this award-winning, rainforest zoo.
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$33 Adult / S$22 Child
+      <br><br>
+      <a href="https://www.google.com.sg/maps/place/Singapore+Zoo/@1.4043485,103.7908343,17z/data=!3m1!4b1!4m5!3m4!1s0x31da13d9102adcaf:0xb414fac8a43b1b91!8m2!3d1.4043485!4d103.793023">
+      80 Mandai Lake Road,  Singapore 729826</a>
+      <br><br>
+      <a href="http://www.zoo.com.sg">  www.zoo.com.sg</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
+<!–– The Original Singapore Walks®< ––>
+<button class="accordion">The Original Singapore Walks®</button>
+<div class="panel">
+  <center>
+    <br>
+    <img src="the-original-singapore-walks.jpg" alt="SgWalks" style="width:100%;height:auto;" align="middle">
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px; margin-left:1em; margin-right:1em;">
+      Recommended by Lonely Planet, the excursion brings guests through cultural and historical enclaves such as Chinatown,
+       Little India and Kampong Gelam. Tours are held regardless of the weather and reservation is not required – visitors
+        can simply turn up at the designated meeting point at the stated time. Be sure to wear comfortable footwear.
+        <br><br>
+        Mon – The Time of Empire™<br>
+        Wed – Dhobis, Saris & a Spot of Curry™<br>
+        Thu – Sultans of Spice™<br>
+        Fri – Cultured Leopard, Rising Tiger – Finding Your Tao in Haw Par Villa™
+      <br><br>
+      Present your Singapore Stopover Holiday card for free admission.
+      <br><br>
+      Regular admission fee: S$38 Adult / S$18 Child
+      <br><br>
+      <a href="http://www.singaporewalks.com">www.singaporewalks.com</a>
+      <br><br>
+    </p>
+  </center>
+</div>
+
 
 <script>
 var acc = document.getElementsByClassName("accordion");
@@ -111,14 +556,6 @@ for (i = 0; i < acc.length; i++) {
 </script>
 
 </body>
-
-
-
-
-
-
-
-
 
 
 
