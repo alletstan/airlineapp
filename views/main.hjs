@@ -4,35 +4,94 @@
       <ons-page>
         <ons-list>
           <ons-list-item onclick="fn.load('home.html')" tappable>
-            Home
-          </ons-list-item>
+            <div class="left">
+              <ons-icon icon="md-face" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Home
+            </div>
+            </ons-list-item>
+
           <ons-list-item onclick="fn.load('packageDetails.html')" tappable>
-            Package Details
-          </ons-list-item>
+            <div class="left">
+                <ons-icon icon="md-card-giftcard" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Package Details
+            </div>
+            </ons-list-item>
+
           <ons-list-item onclick="fn.load('attractions.html')" tappable>
-            Attractions
+            <div class="left">
+                <ons-icon icon="md-local-mall" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Attractions
+            </div>
           </ons-list-item>
+
           <ons-list-item onclick="fn.load('specialEvents.html')" tappable>
-            Special Events
-          </ons-list-item>
+            <div class="left">
+                <ons-icon icon="md-local-activity" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Special Events
+            </div>
+            </ons-list-item>
+
           <ons-list-item onclick="fn.load('recommended.html')" tappable>
-            Recommended
-          </ons-list-item>
+            <div class="left">
+                <ons-icon icon="fa-thumbs-up" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Recommended
+            </div>
+            </ons-list-item>
+
           <ons-list-item onclick="fn.load('lepak.html')" tappable>
-            Lepak One Corner
-          </ons-list-item>
+            <div class="left">
+                <ons-icon icon="md-airline-seat-recline-extra" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Lepak One Corner
+            </div>
+            </ons-list-item>
+
           <ons-list-item onclick="fn.load('usefulContacts.html')" tappable>
-            Useful Contacts
-          </ons-list-item>
+            <div class="left">
+                <ons-icon icon="md-phone" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Useful Contacts
+            </div>
+            </ons-list-item>
+
           <ons-list-item onclick="logout()" tappable>
-            Log Out
+            <div class="left">
+                <ons-icon icon="fa-sign-out" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Log Out
+            </div>
           </ons-list-item>
+
           <ons-list-item onclick="fn.load('about.html')" tappable>
-            About
-          </ons-list-item>
+            <div class="left">
+                <ons-icon icon="md-help" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              About
+            </div>
+            </ons-list-item>
+
           <ons-list-item onclick="fn.load('vouchers.html')" tappable>
-            Vouchers
-          </ons-list-item>
+            <div class="left">
+                <ons-icon icon="md-local-atm" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Vouchers
+            </div>
+            </ons-list-item>
         </ons-list>
       </ons-page>
     </ons-splitter-side>
