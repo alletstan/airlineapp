@@ -6,39 +6,79 @@
       </ons-toolbar-button>
     </div>
     <div class="center">
-      Lepak One Corner
+      List of Hotels
     </div>
   </ons-toolbar>
   <head>
+  <script src="javascripts/accordion.js"></script>
   <style>
-  .vertical-menu {
-    width: 100%auto;
-  }
-
-  .vertical-menu a {
-    background-color: #eee;
+  .button {
+    background-color: #ccc; /* Green */
+    border: none;
     color: black;
-    display: block;
-    padding: 12px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+  }
+  button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
   }
 
-  .vertical-menu a:hover {
+  button.accordion.active, button.accordion:hover {
     background-color: #ccc;
   }
 
-  .vertical-menu a.active {
-    background-color: #4CAF50;
-    color: white;
+  div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
   }
   </style>
 </head>
 <body>
-    <div class="vertical-menu">
-    <a href="hotels.html">List of Hotels</a>
-    <a href="bookConditions.html">Booking Conditions</a>
-    <a href="https://www.singaporeair.com/en_UK/plan-and-book/flight-search/">Book a Basic Singapore Stopover Holiday!</a>
-    <a href="#">Link 4</a>
+  <button class="accordion">Concorde Hotel Singapore</button>
+  <div class="panel">
+    <!–– Concorde Hotel Singapore  ––>
+    <center>
+      <br>
+      <img src="pictures/concordeHotel.jpg" alt="Concorde Hotel Singapore" style="width:100%;height:auto;" align="middle">
+    </center>
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:18px;">
+      Concorde Hotel Singapore
+      <br>
+      <!-- <p>&#9733;&#9733;&#9733;&#9733;</p> -->
+    </p>
+    <button class="button" href="http://map.google.com/?q=100+Orchard+Road">100 Orchard Road</button>
+    <button class="button" href="tel:+65-6733-8855">+65-6733-8855</button>
+    <button class="button" href="http://singapore.concordehotelsresorts.com/">Concorde Hotels website</button>
+    <br><br>
+  </div>
+
+  <button class="accordion">Basic Singapore Stopover Holiday</button>
+  <div class="panel">
+    <!–– Basic Singapore Stopover Holiday  ––>
+    <center>
+      <br>
+      <img src="pictures/basicSSH.jpg" alt="Basic Singapore Stopover Holiday" style="width:100%;height:auto;" align="middle">
+    </center>
+    <p style="text-align: justify; opacity: 1; padding-top: 0px; font-size:15px;">
+      Starting from S$40:
+      <br>
+      The package includes a one-night hotel stay and return airport transfers.
+    </p>
+    <button class="button" onclick="fn.load('basicSSH.html')">Click me for more details!</button>
+    <br><br>
   </div>
 </body>
 
