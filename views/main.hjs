@@ -27,7 +27,7 @@
           <ons-list-item onclick="fn.load('usefulContacts.html')" tappable>
             Useful Contacts
           </ons-list-item>
-          <ons-list-item onclick="fn.load('logout.html')" tappable>
+          <ons-list-item onclick="logout()" tappable>
             Log Out
           </ons-list-item>
           <ons-list-item onclick="fn.load('about.html')" tappable>
