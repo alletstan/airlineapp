@@ -3,7 +3,7 @@
 `airlineapp` is the repository created for the [Singapore Airlines AppChallenge](http://appchallenge.singaporeair.com/). The theme we chosen to work on is Digital Singapore Stopover Holiday.
 
 
-## Backend
+## backend
 1. Install node.js
 2. Navigate to backend directory in your command line
 3. Use the following commands to:
