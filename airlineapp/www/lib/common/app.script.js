@@ -1,3 +1,5 @@
+var domain_url = "http://localhost:3000/";
+
 window.fn = {};
 window.fn.open = function() {
   var menu = document.getElementById('menu');
@@ -13,7 +15,7 @@ var login = {};
 login.goToMainIfAuthenticated = function() {
   $.ajax({
     type: "GET",
-    url: 'http://localhost:3000/api/checkiflogin',
+    url: domain_url + 'api/checkiflogin',
     success: function(data, status){
       if(data.islogin){
         document.querySelector('#mainNavigator').resetToPage('main.html');
@@ -31,7 +33,7 @@ login.tryLogin = function() {
   $.ajax({
     type: "POST",
     data: payload,
-    url: 'http://localhost:3000/api/login',
+    url: domain_url + 'api/login',
     success: function(status){
       document.querySelector('#mainNavigator').resetToPage('main.html');
     },
@@ -44,7 +46,7 @@ login.tryLogin = function() {
 var logout = function() {
   $.ajax({
     type: "GET",
-    url: 'http://localhost:3000/api/logout',
+    url: domain_url + 'api/logout',
     success: function(status){
       document.querySelector('#mainNavigator').resetToPage('login.html', {});
     },
