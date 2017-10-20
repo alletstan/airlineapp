@@ -12,7 +12,7 @@
   <script src="javascripts/filter.js"></script>
   <body>
     <div class="dropdown">
-      <button class="dropbtn">Price Category</button>
+      <button class="dropbtn">Sort by Price Category</button>
       <div class="dropdown-content">
         <input type="button" style="width:100%;" onclick="filterSelection('')" value="Show All" name="category">
         <input type="button" style="width:100%;" onclick="filterSelection('A')" value="A" name="category">
@@ -29,8 +29,34 @@
       </div>
     </div>
 
+    <div class="dropdown">
+      <button class="dropbtn">Sort by Star Rating</button>
+      <div class="dropdown-content">
+        <input type="button" style="width:100%;" onclick="filterSelection('')" value="Show All" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('3s')" value="3 Stars" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('3.5s')" value="3.5 Stars" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('4s')" value="4 Stars" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('5ss')" value="5 Stars" name="category">
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Sort by Location</button>
+      <div class="dropdown-content">
+        <input type="button" style="width:100%;" onclick="filterSelection('')" value="Show All" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('ctcq')" value="Chinatown/Clarke Quay" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('ccli')" value="City Centre/Little India" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('mbay')" value="Marina Bay" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('ornt')" value="Orchard/Newton" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('outc')" value="Outside City" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('rvsd')" value="Riverside" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('sent')" value="Sentosa" name="category">
+        <input type="button" style="width:100%;" onclick="filterSelection('chgi')" value="Changi" name="category">
+      </div>
+    </div>
+
     <div class="container">
-      <div class="filterDiv E">
+      <div class="filterDiv E 4s ccli">
         <button class="accordion">30 Bencoolen</button>
         <div class="panel">
           <!–– 30 Bencoolen  ––>
@@ -55,7 +81,7 @@
         </div>
       </div>
 
-      <div class="filterDiv G">
+      <div class="filterDiv G 4s ccli">
         <button class="accordion">Carlton City Hotel Singapore</button>
         <div class="panel">
           <!–– Carlton City Hotel Singapore  ––>
@@ -80,7 +106,7 @@
         </div>
       </div>
 
-      <div class="filterDiv H">
+      <div class="filterDiv H 4s ccli">
         <button class="accordion">Carlton Hotel Singapore</button>
         <div class="panel">
           <!–– Carlton Hotel Singapore  ––>
@@ -105,7 +131,7 @@
         </div>
       </div>
 
-      <div class="filterDiv B">
+      <div class="filterDiv B 3.5s ornt">
         <button class="accordion">Chancellor @ Orchard</button>
         <div class="panel">
           <!–– Chancellor @ Orchard  ––>
@@ -130,7 +156,7 @@
         </div>
       </div>
 
-      <div class="filterDiv F">
+      <div class="filterDiv F 4s ornt">
         <button class="accordion">Concorde Hotel Singapore</button>
         <div class="panel">
           <!–– Concorde Hotel Singapore  ––>
@@ -155,7 +181,7 @@
         </div>
       </div>
 
-      <div class="filterDiv J">
+      <div class="filterDiv J 5ss mbay">
         <button class="accordion">Conrad Centennial Singapore</button>
         <div class="panel">
           <!–– Conrad Centennial Singapore  ––>
@@ -180,7 +206,7 @@
         </div>
       </div>
 
-      <div class="filterDiv D">
+      <div class="filterDiv D 3.5s ornt">
         <button class="accordion">Copthorne King’s Hotel</button>
         <div class="panel">
           <!–– Copthorne King’s Hotel  ––>
@@ -205,7 +231,7 @@
         </div>
       </div>
 
-      <div class="filterDiv B">
+      <div class="filterDiv B 3.5s outc">
         <button class="accordion">Destination Beach Road Singapore (Premier Inn Singapore)</button>
         <div class="panel">
           <!–– Destination Beach Road Singapore (Premier Inn Singapore)  ––>
@@ -230,7 +256,7 @@
         </div>
       </div>
 
-      <div class="filterDiv E">
+      <div class="filterDiv E 4s ccli">
         <button class="accordion">Dorsett Singapore</button>
         <div class="panel">
           <!–– Dorsett Singapore  ––>
@@ -255,7 +281,7 @@
         </div>
       </div>
 
-      <div class="filterDiv J">
+      <div class="filterDiv J 5ss ccli">
         <button class="accordion">Fairmont Singapore</button>
         <div class="panel">
           <!–– Fairmont Singapore  ––>
@@ -280,7 +306,7 @@
         </div>
       </div>
 
-      <div class="filterDiv F">
+      <div class="filterDiv F 4s rvsd">
         <button class="accordion">Four Points by Sheraton Singapore, Riverview</button>
         <div class="panel">
           <!–– Four Points by Sheraton Singapore, Riverview  ––>
@@ -305,7 +331,7 @@
         </div>
       </div>
 
-      <div class="filterDiv D">
+      <div class="filterDiv D 4s ctcq">
         <button class="accordion">Furama City Centre</button>
         <div class="panel">
           <!–– Furama City Centre  ––>
@@ -330,7 +356,7 @@
         </div>
       </div>
 
-      <div class="filterDiv C">
+      <div class="filterDiv C 4s rvsd">
         <button class="accordion">Furama Riverfront Singapore</button>
         <div class="panel">
           <!–– Furama Riverfront Singapore  ––>
@@ -355,7 +381,7 @@
         </div>
       </div>
 
-      <div class="filterDiv H">
+      <div class="filterDiv H 4s rvsd">
         <button class="accordion">Grand Copthorne Waterfront</button>
         <div class="panel">
           <!–– Grand Copthorne Waterfront  ––>
@@ -380,7 +406,7 @@
         </div>
       </div>
 
-      <div class="filterDiv A">
+      <div class="filterDiv A 3s outc">
         <button class="accordion">Hotel Boss</button>
         <div class="panel">
           <!–– Hotel Boss  ––>
@@ -405,7 +431,7 @@
         </div>
       </div>
 
-      <div class="filterDiv C">
+      <div class="filterDiv C 4s ornt">
         <button class="accordion">Hotel Grand Central</button>
         <div class="panel">
           <!–– Hotel Grand Central  ––>
@@ -430,7 +456,7 @@
         </div>
       </div>
 
-      <div class="filterDiv B">
+      <div class="filterDiv B 3s ccli">
         <button class="accordion">Hotel Grand Pacific Singapore</button>
         <div class="panel">
           <!–– Hotel Grand Pacific Singapore  ––>
@@ -455,7 +481,7 @@
         </div>
       </div>
 
-      <div class="filterDiv H">
+      <div class="filterDiv H 4s ornt">
         <button class="accordion">Hotel Jen Tanglin Singapore</button>
         <div class="panel">
           <!–– Hotel Jen Tanglin Singapore  ––>
@@ -480,7 +506,7 @@
         </div>
       </div>
 
-      <div class="filterDiv C">
+      <div class="filterDiv C 3.5s rvsd">
         <button class="accordion">Hotel Miramar Singapore</button>
         <div class="panel">
           <!–– Hotel Miramar Singapore ––>
@@ -505,7 +531,7 @@
         </div>
       </div>
 
-      <div class="filterDiv A">
+      <div class="filterDiv A 3s ornt">
         <button class="accordion">Hotel Royal</button>
         <div class="panel">
           <!–– Hotel Royal  ––>
@@ -530,7 +556,7 @@
         </div>
       </div>
 
-      <div class="filterDiv A">
+      <div class="filterDiv A 3s ccli">
         <button class="accordion">Hotel Royal @ Queens</button>
         <div class="panel">
           <!–– Hotel Royal @ Queens  ––>
@@ -555,7 +581,7 @@
         </div>
       </div>
 
-      <div class="filterDiv D">
+      <div class="filterDiv D 3.5s ccli">
         <button class="accordion">ibis Singapore on Bencoolen</button>
         <div class="panel">
           <!–– ibis Singapore on Bencoolen  ––>
@@ -580,7 +606,7 @@
         </div>
       </div>
 
-      <div class="filterDiv A">
+      <div class="filterDiv A 3s ccli">
         <button class="accordion">Link Hotel</button>
         <div class="panel">
           <!–– Link Hotel  ––>
@@ -605,7 +631,7 @@
         </div>
       </div>
 
-      <div class="filterDiv I">
+      <div class="filterDiv I 5ss ornt">
         <button class="accordion">Mandarin Orchard Singapore</button>
         <div class="panel">
           <!–– Mandarin Orchard Singapore  ––>
@@ -630,7 +656,7 @@
         </div>
       </div>
 
-      <div class="filterDiv I">
+      <div class="filterDiv I 5ss mbay">
         <button class="accordion">Marina Mandarin Singapore</button>
         <div class="panel">
           <!–– Marina Mandarin Singapore  ––>
@@ -655,7 +681,7 @@
         </div>
       </div>
 
-      <div class="filterDiv G">
+      <div class="filterDiv G 4s ornt">
         <button class="accordion">Orchard Hotel Singapore</button>
         <div class="panel">
           <!–– Orchard Hotel Singapore  ––>
@@ -680,7 +706,7 @@
         </div>
       </div>
 
-      <div class="filterDiv J">
+      <div class="filterDiv J 5ss mbay">
         <button class="accordion">Pan Pacific Singapore</button>
         <div class="panel">
           <!––Pan Pacific Singapore  ––>
@@ -705,7 +731,7 @@
         </div>
       </div>
 
-      <div class="filterDiv G">
+      <div class="filterDiv G 4s ctcq">
         <button class="accordion">Park Hotel Clarke Quay</button>
         <div class="panel">
           <!–– Park Hotel Clarke Quay  ––>
@@ -730,7 +756,7 @@
         </div>
       </div>
 
-      <div class="filterDiv E">
+      <div class="filterDiv E 4s ccli">
         <button class="accordion">PARKROYAL on Kitchener Road</button>
         <div class="panel">
           <!–– PARKROYAL on Kitchener Road  ––>
@@ -755,7 +781,7 @@
         </div>
       </div>
 
-      <div class="filterDiv C">
+      <div class="filterDiv C 3s ccli">
         <button class="accordion">Peninsula.Excelsior</button>
         <div class="panel">
           <!–– Peninsula.Excelsior  ––>
@@ -780,7 +806,7 @@
         </div>
       </div>
 
-      <div class="filterDiv D">
+      <div class="filterDiv D 4s ccli">
         <button class="accordion">Ramada Singapore at Zhongshan Park</button>
         <div class="panel">
           <!–– Ramada Singapore at Zhongshan Park  ––>
@@ -805,7 +831,7 @@
         </div>
       </div>
 
-      <div class="filterDiv K">
+      <div class="filterDiv K 5ss sent">
         <button class="accordion">Sofitel Singapore Sentosa Resort and Spa</button>
         <div class="panel">
           <!–– Sofitel Singapore Sentosa Resort & Spa  ––>
@@ -830,7 +856,7 @@
         </div>
       </div>
 
-      <div class="filterDiv I">
+      <div class="filterDiv I 5ss ccli">
         <button class="accordion">Swissotel The Stamford</button>
         <div class="panel">
           <!–– Swissotel The Stamford  ––>
@@ -855,7 +881,7 @@
         </div>
       </div>
 
-      <div class="filterDiv K">
+      <div class="filterDiv K 5ss mbay">
         <button class="accordion">The Ritz-Carlton, Millenia Singapore</button>
         <div class="panel">
           <!–– The Ritz-Carlton, Millenia Singapore  ––>
@@ -880,7 +906,7 @@
         </div>
       </div>
 
-      <div class="filterDiv K">
+      <div class="filterDiv K 5ss mbay">
         <button class="accordion">The Westin Singapore</button>
         <div class="panel">
           <!–– The Westin Singapore  ––>
@@ -905,7 +931,7 @@
         </div>
       </div>
 
-      <div class="filterDiv B">
+      <div class="filterDiv B 3s ccli">
         <button class="accordion">V Hotel Lavender</button>
         <div class="panel">
           <!–– V Hotel Lavender  ––>
@@ -930,7 +956,7 @@
         </div>
       </div>
 
-      <div class="filterDiv E">
+      <div class="filterDiv E 4s ccli">
         <button class="accordion">Village Hotel Albert Court</button>
         <div class="panel">
           <!–– Village Hotel Albert Court  ––>
@@ -955,7 +981,7 @@
         </div>
       </div>
 
-      <div class="filterDiv F">
+      <div class="filterDiv F 4s ornt">
         <button class="accordion">York Hotel Singapore</button>
         <div class="panel">
           <!–– York Hotel Singapore  ––>
