@@ -54,11 +54,13 @@ a {
 .dropdown {
   position: relative;
   display: inline-block;
+  width: 100%;
 }
 
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  width: 100%;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
