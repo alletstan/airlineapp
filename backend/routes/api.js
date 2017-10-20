@@ -4,25 +4,31 @@ var bodyParser = require('body-parser');
 var router = express.Router();
 
 router.post('/login', function(req, res) {
+
   let username = req.body.username;
   let password = req.body.password;
+
   if((username == 'a') && (password == 'a')){
     req.session.user = "validuser";
-    res.status(200).send();
+    console.log(req.session);
+    res.status(200).send({success: true});
   }else{
-    res.status(401).send();
+    res.status(401).send({success: false});
   }
+
 });
 
-router.get('/checkiflogin', function(req, res, next) {
+router.get('/checkiflogin', function(req, res) {
+    console.log(req.session);
     if(req.session.user){
       res.json({islogin: true});
     }else{
-      res.json({islogin: false});
+      res.json({islogin: true});
+      // res.json({islogin: false});
     }
 });
 
-router.get('/logout', function(req, res, next) {
+router.get('/logout', function(req, res) {
   req.session.user = null;
   res.status(200).send();
 });
