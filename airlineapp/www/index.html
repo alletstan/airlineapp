@@ -17,7 +17,9 @@
   <script>
 
   ons.ready(function() {
-    document.querySelector('#mainNavigator').resetToPage('login.html', {});
+    if(krisFlyerNumber == null){
+      document.querySelector('#mainNavigator').resetToPage('login.html', {});
+    }
     login.goToMainIfAuthenticated();
   });
 
