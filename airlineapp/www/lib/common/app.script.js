@@ -46,7 +46,7 @@ login.tryLogin = function() {
     url: "https://apidev.singaporeair.com/appchallenge/krisflyer/getprofile",
     success: function(data, status){
       krisFlyerNumber = enteredKrisNumber;
-      userProfile = data;
+      userProfile = data.response;
       document.querySelector('#mainNavigator').resetToPage('main.html');
     },
     error: function(err, xhr) {
