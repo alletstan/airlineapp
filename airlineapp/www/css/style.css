@@ -1,26 +1,12 @@
-table tr:nth-child(even) {
-    background-color: #eee;
-}
-
-table th {
-    background-color: darkblue;
-    color: gold;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
 button.accordion {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 14px;
   width: 100%;
   border: none;
   text-align: left;
-  outline: none;
+  outline: black;
   font-size: 15px;
   transition: 0.4s;
 }
