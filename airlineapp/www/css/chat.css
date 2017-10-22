@@ -173,12 +173,11 @@
   width: 100%;
 }
 #OnssendMessageInput input {
-  /*-webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;*/
   margin: 5px;
   height: 75%;
   width: 75%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #OnssendMessageInput ons-button {

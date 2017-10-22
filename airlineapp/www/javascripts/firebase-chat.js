@@ -44,3 +44,11 @@ fbchat.sendmessage = function(sender, krisNumber, chatMsg) {
   }
   pushedItem = fbchatdb.push(message);
 }
+
+$(document).on('click', '#SendMessageButton', function(event) {
+  let msgToSend = $('#SendMessageText').val().trim();
+  if (msgToSend == "") { return; }
+  if (krisFlyerNumber == null || userProfile == null) { return; }
+  fbchat.sendmessage(userProfile.firstName + " " + userProfile.lastName, krisFlyerNumber, msgToSend);
+  $('#SendMessageText').val("");
+});
