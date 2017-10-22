@@ -23,7 +23,7 @@ window.fn.load = function(page) {
 var login = {};
 login.goToMainIfAuthenticated = function() {
 
-  if(krisFlyerNumber == null) {
+  if(krisFlyerNumber != null) {
     document.querySelector('#mainNavigator').resetToPage('main.html');
   }
 
