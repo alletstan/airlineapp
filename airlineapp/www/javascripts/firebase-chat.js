@@ -62,8 +62,6 @@ fbchat.createWSConnection = function() {
       switch(msg.type) {
           case "chatUsersDetails":
             chatUsersDetails = msg.chatUsersDetails;
-            console.log("users online");
-            console.log(chatUsersDetails);
             break;
       }
   };
