@@ -7,6 +7,12 @@
   <script src="lib/onsenui/js/onsenui.min.js"></script>
   <script src="lib/jquery/jquery-3.2.1.min.js"></script>
   <script src="lib/common/app.script.js"></script>
+
+  <!-- firebase chat  -->
+  <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+  <script src="javascripts/firebase-chat.js"></script>
+
+
   <script src="javascripts/accordion.js"></script>
 
   <link rel="stylesheet" href="components/loader.css">
@@ -20,7 +26,7 @@
     if(krisFlyerNumber == null){
       document.querySelector('#mainNavigator').resetToPage('login.html', {});
     }
-    login.goToMainIfAuthenticated();
+    // login.goToMainIfAuthenticated();
   });
 
   </script>
