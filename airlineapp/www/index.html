@@ -4,9 +4,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
-  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
   <script src="lib/jquery/jquery-3.2.1.min.js"></script>
   <script src="lib/common/app.script.js"></script>
+  <script src="lib/jquery-tmpl/jquery.tmpl.min.js"></script>
+  <script src="lib/moment/moment.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
 
   <!-- firebase chat  -->
   <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
@@ -19,17 +22,17 @@
   <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="lib/common/app.style.css">
 
   <script>
-
   ons.ready(function() {
     if(krisFlyerNumber == null){
       document.querySelector('#mainNavigator').resetToPage('login.html', {});
     }
     // login.goToMainIfAuthenticated();
   });
-
   </script>
+
 </head>
 <body>
     <ons-navigator id="mainNavigator" animation="slide" swipeable var="myNavigator">

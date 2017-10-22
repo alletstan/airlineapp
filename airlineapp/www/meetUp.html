@@ -1,4 +1,76 @@
 <ons-page>
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/chat.css">
+
+  <script id="messageSystemTemplate" type="text/x-jQuery-tmpl">
+  <div class="msg msg-system">
+      <div class="message message-system">
+          <span class="message-system-body">
+              <span dir="auto" class="emojitext">
+                  ${DateSummary}
+              </span>
+          </span>
+      </div>
+  </div>
+  </script>
+
+  <script id="messageInTemplate" type="text/x-jQuery-tmpl">
+  <div class="msg">
+      <span></span>
+      <div class="message-in tail">
+          <div>
+              <span class="tail-container"></span>
+              <div class="bubble bubble-text copyable-text">
+                  <div class="author color-1 bubble-text-author">
+                      <span dir="auto" class="emojitext author-name emoji-text-clickable">
+                          ${AuthorFullName}
+                      </span>
+                  </div>
+                  <div class="message-text">
+                      <span dir="ltr" class="emojitext selectable-text invisible-space copyable-text">${Message}</span>
+                  </div>
+                  <div class="message-meta text-clickable">
+                      <span class="message-datetime">${MessageTime}</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </script>
+
+  <script id="messageOutTemplate" type="text/x-jQuery-tmpl">
+  <div class="msg">
+      <span></span>
+      <div class="message-out tail">
+          <div>
+              <span class="tail-container"></span>
+              <div class="bubble bubble-text copyable-text">
+                  <div class="author color-1 bubble-text-author">
+                      <span dir="auto" class="emojitext author-name emoji-text-clickable">
+                          ${AuthorFullName}
+                      </span>
+                  </div>
+                  <div class="message-text">
+                      <span dir="ltr" class="emojitext selectable-text invisible-space copyable-text">${Message}</span>
+                  </div>
+                  <div class="message-meta text-clickable">
+                      <span class="message-datetime">${MessageTime}</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </script>
+
+  <script>
+  ons.ready(function() {
+      fbchat.initChatMessage();
+  });
+  </script>
+</head>
+
   <ons-toolbar>
     <div class="left">
       <ons-toolbar-button onclick="fn.open()">
@@ -9,7 +81,31 @@
       Meet Up
     </div>
   </ons-toolbar>
+<<<<<<< HEAD
   <h1>This is the Digital Singapore Stopover Holiday app</h1>
 
+=======
+
+    <div id="ChatMessageContainer">
+
+        <div class="msg msg-system">
+            <div class="message message-system">
+                <span class="message-system-body">
+                    <span dir="auto" class="emojitext">
+                        TODAY
+                    </span>
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+  <ons-bottom-toolbar>
+    <ons-input id="OnssendMessageInput" modifier="transparent">
+        <input id="SendMessageText" type="text"></input>
+        <ons-button id="SendMessageButton" modifier="quiet">Send</ons-button>
+    </ons-input>
+  </ons-bottom-toolbar>
+>>>>>>> 0720ce298e5a0332d91612f4850c1a7ef6596926
 
 </ons-page>
