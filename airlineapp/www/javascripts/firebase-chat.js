@@ -12,20 +12,35 @@ firebase.initializeApp(config);
 fbchatdb = firebase.database().ref("/chat-app-public");
 
 // GET RECENT 100 MESSAGES AND LISTEN FOR NEW MESSAGES
-// fbchatdb.orderByChild("DateTime").limitToLast(100).on("child_added", function(snapshot) {
-//   let msgKey = snapshot.key;
-//   let msgMeta = snapshot.val();
-//
-// });
+fbchat.initChatMessage = function() {
+  fbchatdb.limitToLast(10).orderByChild("DateTime").on("child_added", function(snapshot) {
+    let msgKey = snapshot.key;
+    let msgMeta = snapshot.val();
+
+    let authorKrisNumber = msgMeta.KrisNumber;
+    let messageDetail = {
+      AuthorFullName: msgMeta.FullName,
+      Message: msgMeta.Message,
+      MessageTime: moment(msgMeta.DateTime, 'DD-MM-YYYY HH:mm:SSS').format('hh:mm A')
+    }
+
+    if(authorKrisNumber == krisFlyerNumber) {
+      $("#messageOutTemplate").tmpl(messageDetail).appendTo("#ChatMessageContainer");
+    } else {
+      $("#messageInTemplate").tmpl(messageDetail).appendTo("#ChatMessageContainer");
+    }
+
+  });
+}
 
 // SEND MESSAGES
 fbchat.sendmessage = function(sender, krisNumber, chatMsg) {
-  let msgdate = moment(new Date()).format('DD-MM-YYYY hh:mm:ss');
+  let msgdate = moment(new Date()).format('DD-MM-YYYY HH:mm:SSS');
   let message = {
     DateTime: msgdate,
     FullName: sender,
     KrisNumber: krisNumber,
     Message: chatMsg
   }
-  fbchatdb.push(message);
+  pushedItem = fbchatdb.push(message);
 }
