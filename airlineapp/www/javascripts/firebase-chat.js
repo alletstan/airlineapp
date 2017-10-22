@@ -1,5 +1,8 @@
 var fbchat = {};
 var fbchatdb = null;
+var usersConnected = 0;
+var chatUsersDetails = {};
+var socket;
 var config = {
   apiKey: "AIzaSyA-QOeXCAvvWkCp2hZCRZtZnOwfUJKGhPY",
   authDomain: "airlineapp-183702.firebaseapp.com",
@@ -31,6 +34,41 @@ fbchat.initChatMessage = function() {
     }
 
   });
+};
+
+fbchat.createWSConnection = function() {
+  if(location.protocol == 'https:'){
+    socket = new WebSocket("wss://" + "sg-emergency-force.herokuapp.com" + "/airlineapp/chat/");
+  }else{
+    socket = new WebSocket("ws://" + "sg-emergency-force.herokuapp.com" + "/airlineapp/chat/");
+  }
+
+  socket.onopen = function(e) {
+    if (krisFlyerNumber == null || userProfile == null) { return; }
+    chatUserDetail = {
+      krisFlyerNumber: krisFlyerNumber,
+      memberSince: userProfile.accountSummary.memberSince,
+      firstName: userProfile.firstName,
+      lastName: userProfile.lastName,
+      gender: userProfile.gender,
+      nationality: userProfile.passport.nationality
+    };
+    socket.send(JSON.stringify(chatUserDetail));
+  }
+
+  socket.onmessage = function(e) {
+
+      var msg = (JSON.parse(e.data));
+      switch(msg.type) {
+          case "chatUsersDetails":
+            chatUsersDetails = msg.chatUsersDetails;
+            console.log("users online");
+            console.log(chatUsersDetails);
+            break;
+      }
+  };
+
+  // socket.close()
 }
 
 // SEND MESSAGES
@@ -43,7 +81,7 @@ fbchat.sendmessage = function(sender, krisNumber, chatMsg) {
     Message: chatMsg
   }
   pushedItem = fbchatdb.push(message);
-}
+};
 
 $(document).on('click', '#SendMessageButton', function(event) {
   let msgToSend = $('#SendMessageText').val().trim();
