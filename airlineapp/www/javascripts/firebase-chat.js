@@ -13,7 +13,7 @@ fbchatdb = firebase.database().ref("/chat-app-public");
 
 // GET RECENT 100 MESSAGES AND LISTEN FOR NEW MESSAGES
 fbchat.initChatMessage = function() {
-  fbchatdb.limitToLast(10).orderByChild("DateTime").on("child_added", function(snapshot) {
+  fbchatdb.limitToLast(100).orderByChild("DateTime").on("child_added", function(snapshot) {
     let msgKey = snapshot.key;
     let msgMeta = snapshot.val();
 
