@@ -9,64 +9,58 @@
       Departure
     </div>
   </ons-toolbar>
-  <style>
-  input[type="radio"] {
-    float:left;
-  }
-  label {
-    margin-left: 30px;
-    display: block;
-  }
-  </style>
-  <h1>How do you rate the following services provided?</h1>
-  <div class="container">
-    <fieldset>
-      <legend>Departure Transfer Experience</legend>
-      <h5>Service of Driver</h5>
-      <form action="" id="driverService">
-        <input type="radio" name="driverService" value="Excellent">
-        <label>Excellent</label>
-        <input type="radio" name="driverService" value="Good">
-        <label>Good</label>
-        <input type="radio" name="driverService" value="Average">
-        <label>Average</label>
-        <input type="radio" name="driverService" value="Poor">
-        <label>Poor</label>
-        <input type="radio" name="driverService" value="N.A">
-        <label>Not Applicable</label>
-      </form>
-      <h5>Condition of transport</h5>
-      <form action="" id="transportService">
-        <input type="radio" name="transportService" value="Excellent">
-        <label>Excellent</label>
-        <input type="radio" name="transportService" value="Good">
-        <label>Good</label>
-        <input type="radio" name="transportService" value="Average">
-        <label>Average</label>
-        <input type="radio" name="transportService" value="Poor">
-        <label>Poor</label>
-        <input type="radio" name="transportService" value="N.A">
-        <label>Not Applicable</label>
-      </form>
-      <h5>Punctuality of driver</h5>
-      <form action="" id="driverPunctual">
-        <input type="radio" name="driverPunctual" value="Excellent">
-        <label>Excellent</label>
-        <input type="radio" name="driverPunctual" value="Good">
-        <label>Good</label>
-        <input type="radio" name="driverPunctual" value="Average">
-        <label>Average</label>
-        <input type="radio" name="driverPunctual" value="Poor">
-        <label>Poor</label>
-        <input type="radio" name="driverPunctual" value="N.A">
-        <label>Not Applicable</label>
-      </form>
-      <h5>Additional Comments</h5>
-      <form action="" id="transferComments">
-        <textarea rows="4" cols="50" name="transferComments" form="usrform">Enter text here..</textarea>
-      </form>
-    </fieldset>
-  </div>
-  <ons-button onclick="fn.load('feedback_accomms.html')" style="width:200px">Back to Arrival feedback</ons-button>
-  <ons-button onclick="fn.load('feedback_accomms.html')" style="width:200px">Next Page</ons-button>
+  <link rel="stylesheet" href="css/feedback.css">
+  <body>
+    <h1>How do you rate the following services provided?</h1>
+    <div class="container">
+      <fieldset>
+        <legend>Departure Transfer Experience</legend>
+        <h5>Service of Driver</h5>
+        <form action="" id="driverService">
+          <input type="radio" name="driverService" value="Excellent">
+          <label>Excellent</label>
+          <input type="radio" name="driverService" value="Good">
+          <label>Good</label>
+          <input type="radio" name="driverService" value="Average">
+          <label>Average</label>
+          <input type="radio" name="driverService" value="Poor">
+          <label>Poor</label>
+          <input type="radio" name="driverService" value="N.A">
+          <label>Not Applicable</label>
+        </form>
+        <h5>Condition of transport</h5>
+        <form action="" id="transportService">
+          <input type="radio" name="transportService" value="Excellent">
+          <label>Excellent</label>
+          <input type="radio" name="transportService" value="Good">
+          <label>Good</label>
+          <input type="radio" name="transportService" value="Average">
+          <label>Average</label>
+          <input type="radio" name="transportService" value="Poor">
+          <label>Poor</label>
+          <input type="radio" name="transportService" value="N.A">
+          <label>Not Applicable</label>
+        </form>
+        <h5>Punctuality of driver</h5>
+        <form action="" id="driverPunctual">
+          <input type="radio" name="driverPunctual" value="Excellent">
+          <label>Excellent</label>
+          <input type="radio" name="driverPunctual" value="Good">
+          <label>Good</label>
+          <input type="radio" name="driverPunctual" value="Average">
+          <label>Average</label>
+          <input type="radio" name="driverPunctual" value="Poor">
+          <label>Poor</label>
+          <input type="radio" name="driverPunctual" value="N.A">
+          <label>Not Applicable</label>
+        </form>
+        <h5>Additional Comments</h5>
+        <form action="" id="transferComments">
+            <textarea rows="4" cols="40" name="transferComments" form="usrform">Enter text here</textarea>
+        </form>
+      </fieldset>
+    </div>
+    <ons-button onclick="fn.load('feedback_accomms.html')" style="width:200px">Back to Arrival feedback</ons-button>
+    <ons-button onclick="fn.load('feedback_accomms.html')" style="width:200px">Next Page</ons-button>
+  </body>
 </ons-page>

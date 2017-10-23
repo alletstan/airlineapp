@@ -9,90 +9,84 @@
       Accommodations
     </div>
   </ons-toolbar>
-  <style>
-  input[type="radio"] {
-    float:left;
-  }
-  label {
-    margin-left: 30px;
-    display: block;
-  }
-  </style>
-  <h1>How do you rate the following services provided?</h1>
-  <div class="container">
-    <fieldset>
-      <legend>Accommodations Experience</legend>
-      <h5>Cleanliness</h5>
-      <form action="" id="cleanliness">
-        <input type="radio" name="cleanliness" value="Excellent">
-        <label>Excellent</label>
-        <input type="radio" name="cleanliness" value="Good">
-        <label>Good</label>
-        <input type="radio" name="cleanliness" value="Average">
-        <label>Average</label>
-        <input type="radio" name="cleanliness" value="Poor">
-        <label>Poor</label>
-        <input type="radio" name="cleanliness" value="N.A">
-        <label>Not Applicable</label>
-      </form>
-      <h5>Amenities</h5>
-      <form action="" id="amenities">
-        <input type="radio" name="amenities" value="Excellent">
-        <label>Excellent</label>
-        <input type="radio" name="amenities" value="Good">
-        <label>Good</label>
-        <input type="radio" name="amenities" value="Average">
-        <label>Average</label>
-        <input type="radio" name="amenities" value="Poor">
-        <label>Poor</label>
-        <input type="radio" name="amenities" value="N.A">
-        <label>Not Applicable</label>
-      </form>
-      <h5>Hotel Check-in service</h5>
-      <form action="" id="checkInService">
-        <input type="radio" name="checkInService" value="Excellent">
-        <label>Excellent</label>
-        <input type="radio" name="checkInService" value="Good">
-        <label>Good</label>
-        <input type="radio" name="checkInService" value="Average">
-        <label>Average</label>
-        <input type="radio" name="checkInService" value="Poor">
-        <label>Poor</label>
-        <input type="radio" name="checkInService" value="N.A">
-        <label>Not Applicable</label>
-      </form>
-      <h5>Hotel Check-out service</h5>
-      <form action="" id="checkOutService">
-        <input type="radio" name="checkOutService" value="Excellent">
-        <label>Excellent</label>
-        <input type="radio" name="checkOutService" value="Good">
-        <label>Good</label>
-        <input type="radio" name="checkOutService" value="Average">
-        <label>Average</label>
-        <input type="radio" name="checkOutService" value="Poor">
-        <label>Poor</label>
-        <input type="radio" name="checkOutService" value="N.A">
-        <label>Not Applicable</label>
-      </form>
-      <h5>Luggage Delivery</h5>
-      <form action="" id="luggageDelivery">
-        <input type="radio" name="luggageDelivery" value="Excellent">
-        <label>Excellent</label>
-        <input type="radio" name="luggageDelivery" value="Good">
-        <label>Good</label>
-        <input type="radio" name="luggageDelivery" value="Average">
-        <label>Average</label>
-        <input type="radio" name="luggageDelivery" value="Poor">
-        <label>Poor</label>
-        <input type="radio" name="luggageDelivery" value="N.A">
-        <label>Not Applicable</label>
-      </form>
-      <h5>Additional Comments</h5>
-      <form action="" id="transferComments">
-        <textarea rows="4" cols="50" name="transferComments" form="usrform">Enter text here..</textarea>
-      </form>
-    </fieldset>
-  </div>
-  <ons-button onclick="fn.load('feedback_accomms.html')" style="width:200px">Back to Departure feedback</ons-button>
-  <ons-button onclick="fn.load('feedback_attractions.html')" style="width:200px">Next Page</ons-button>
+  <link rel="stylesheet" href="css/feedback.css">
+  <body>
+    <h1>How do you rate the following services provided?</h1>
+    <div class="container">
+      <fieldset>
+        <legend>Accommodations Experience</legend>
+        <h5>Cleanliness</h5>
+        <form action="" id="cleanliness">
+          <input type="radio" name="cleanliness" value="Excellent">
+          <label>Excellent</label>
+          <input type="radio" name="cleanliness" value="Good">
+          <label>Good</label>
+          <input type="radio" name="cleanliness" value="Average">
+          <label>Average</label>
+          <input type="radio" name="cleanliness" value="Poor">
+          <label>Poor</label>
+          <input type="radio" name="cleanliness" value="N.A">
+          <label>Not Applicable</label>
+        </form>
+        <h5>Amenities</h5>
+        <form action="" id="amenities">
+          <input type="radio" name="amenities" value="Excellent">
+          <label>Excellent</label>
+          <input type="radio" name="amenities" value="Good">
+          <label>Good</label>
+          <input type="radio" name="amenities" value="Average">
+          <label>Average</label>
+          <input type="radio" name="amenities" value="Poor">
+          <label>Poor</label>
+          <input type="radio" name="amenities" value="N.A">
+          <label>Not Applicable</label>
+        </form>
+        <h5>Hotel Check-in service</h5>
+        <form action="" id="checkInService">
+          <input type="radio" name="checkInService" value="Excellent">
+          <label>Excellent</label>
+          <input type="radio" name="checkInService" value="Good">
+          <label>Good</label>
+          <input type="radio" name="checkInService" value="Average">
+          <label>Average</label>
+          <input type="radio" name="checkInService" value="Poor">
+          <label>Poor</label>
+          <input type="radio" name="checkInService" value="N.A">
+          <label>Not Applicable</label>
+        </form>
+        <h5>Hotel Check-out service</h5>
+        <form action="" id="checkOutService">
+          <input type="radio" name="checkOutService" value="Excellent">
+          <label>Excellent</label>
+          <input type="radio" name="checkOutService" value="Good">
+          <label>Good</label>
+          <input type="radio" name="checkOutService" value="Average">
+          <label>Average</label>
+          <input type="radio" name="checkOutService" value="Poor">
+          <label>Poor</label>
+          <input type="radio" name="checkOutService" value="N.A">
+          <label>Not Applicable</label>
+        </form>
+        <h5>Luggage Delivery</h5>
+        <form action="" id="luggageDelivery">
+          <input type="radio" name="luggageDelivery" value="Excellent">
+          <label>Excellent</label>
+          <input type="radio" name="luggageDelivery" value="Good">
+          <label>Good</label>
+          <input type="radio" name="luggageDelivery" value="Average">
+          <label>Average</label>
+          <input type="radio" name="luggageDelivery" value="Poor">
+          <label>Poor</label>
+          <input type="radio" name="luggageDelivery" value="N.A">
+          <label>Not Applicable</label>
+        </form>
+        <h5>Additional Comments</h5>
+        <form action="" id="transferComments">
+            <textarea rows="4" cols="40" name="transferComments" form="usrform">Enter text here</textarea>
+        </form>
+      </fieldset>
+    </div>
+    <ons-button onclick="fn.load('feedback_accomms.html')" style="width:200px">Back to Departure feedback</ons-button>
+    <ons-button onclick="fn.load('feedback_attractions.html')" style="width:200px">Next Page</ons-button>
+  </body>
 </ons-page>
