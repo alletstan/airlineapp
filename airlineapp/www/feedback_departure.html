@@ -11,7 +11,7 @@
   </ons-toolbar>
   <link rel="stylesheet" href="css/feedback.css">
   <body>
-    <h1>How do you rate the following services provided?</h1>
+    <h1>How would you rate your transfer experience from Hotel to airport?</h1>
     <div class="container">
       <fieldset>
         <legend>Departure Transfer Experience</legend>
@@ -56,11 +56,13 @@
         </form>
         <h5>Additional Comments</h5>
         <form action="" id="transferComments">
-            <textarea rows="4" cols="40" name="transferComments" form="usrform">Enter text here</textarea>
+            <textarea rows="4" cols="40" name="dTransferComments" form="usrform">Enter text here</textarea>
         </form>
       </fieldset>
     </div>
-    <ons-button onclick="fn.load('feedback_accomms.html')" style="width:200px">Back to Arrival feedback</ons-button>
-    <ons-button onclick="fn.load('feedback_accomms.html')" style="width:200px">Next Page</ons-button>
+    <div style="text-align:center">
+      <ons-button onclick="fn.load('feedback_main.html')" style="width:150px;margin-top:5px;">Back</ons-button>
+      <ons-button onclick="fn.load('feedback_accomms.html')" style="width:150px;margin-top:5px;">Next Page</ons-button>
+    </div>
   </body>
 </ons-page>

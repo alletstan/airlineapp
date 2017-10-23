@@ -11,7 +11,7 @@
   </ons-toolbar>
   <link rel="stylesheet" href="css/feedback.css">
   <body>
-    <h1>How do you rate the following services provided?</h1>
+    <h1>How would you rate the Accommodation provided by us?</h1>
     <div class="container">
       <fieldset>
         <legend>Accommodations Experience</legend>
@@ -67,26 +67,28 @@
           <input type="radio" name="checkOutService" value="N.A">
           <label>Not Applicable</label>
         </form>
-        <h5>Luggage Delivery</h5>
-        <form action="" id="luggageDelivery">
-          <input type="radio" name="luggageDelivery" value="Excellent">
+        <h5>Luggage Assistance</h5>
+        <form action="" id="luggageAssistance">
+          <input type="radio" name="luggageAssistance" value="Excellent">
           <label>Excellent</label>
-          <input type="radio" name="luggageDelivery" value="Good">
+          <input type="radio" name="luggageAssistance" value="Good">
           <label>Good</label>
-          <input type="radio" name="luggageDelivery" value="Average">
+          <input type="radio" name="luggageAssistance" value="Average">
           <label>Average</label>
-          <input type="radio" name="luggageDelivery" value="Poor">
+          <input type="radio" name="luggageAssistance" value="Poor">
           <label>Poor</label>
-          <input type="radio" name="luggageDelivery" value="N.A">
+          <input type="radio" name="luggageAssistance" value="N.A">
           <label>Not Applicable</label>
         </form>
         <h5>Additional Comments</h5>
         <form action="" id="transferComments">
-            <textarea rows="4" cols="40" name="transferComments" form="usrform">Enter text here</textarea>
+            <textarea rows="4" cols="40" name="accommsComments" form="usrform">Enter text here</textarea>
         </form>
       </fieldset>
     </div>
-    <ons-button onclick="fn.load('feedback_accomms.html')" style="width:200px">Back to Departure feedback</ons-button>
-    <ons-button onclick="fn.load('feedback_attractions.html')" style="width:200px">Next Page</ons-button>
+    <div style="text-align:center">
+      <ons-button onclick="fn.load('feedback_departure.html')" style="width:150px;margin-top:5px;">Back</ons-button>
+      <ons-button onclick="fn.load('feedback_attractions.html')" style="width:150px;margin-top:5px;">Next Page</ons-button>
+    </div>
   </body>
 </ons-page>

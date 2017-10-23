@@ -11,11 +11,11 @@
   </ons-toolbar>
   <link rel="stylesheet" href="css/feedback.css">
   <body>
-    <h1>How do you rate the following services provided?</h1>
+    <h1>How would you rate your transfer experience from airport to hotel?</h1>
     <div class="container">
       <fieldset>
         <legend>Arrival Transfer Experience</legend>
-        <h5>Service of Stopover counter staff</h5>
+        <h5><b>Service of Stopover counter staff</b></h5>
         <form action="" id="counterService">
           <input type="radio" name="counterService" value="Excellent">
           <label>Excellent</label>
@@ -28,7 +28,7 @@
           <input type="radio" name="counterService" value="N.A">
           <label>Not Applicable</label>
         </form>
-        <h5>Service of Driver</h5>
+        <h5><b>Service of Driver</b></h5>
         <form action="" id="driverService">
           <input type="radio" name="driverService" value="Excellent">
           <label>Excellent</label>
@@ -41,7 +41,7 @@
           <input type="radio" name="driverService" value="N.A">
           <label>Not Applicable</label>
         </form>
-        <h5>Condition of transport</h5>
+        <h5><b>Condition of transport</b></h5>
         <form action="" id="transportService">
           <input type="radio" name="transportService" value="Excellent">
           <label>Excellent</label>
@@ -54,12 +54,26 @@
           <input type="radio" name="transportService" value="N.A">
           <label>Not Applicable</label>
         </form>
+        <h5><b>Waiting time for transfer</b></h5>
+        <h5>From the time you report at the SIA Stopover Counter till the time coach leaves the airport</h5>
+        <form action="" id="waitingTime">
+          <input type="radio" name="waitingTime" value="Excellent">
+          <label>Excellent(Less than 15mins)</label>
+          <input type="radio" name="waitingTime" value="Good">
+          <label>Good(15-20mins)</label>
+          <input type="radio" name="waitingTime" value="Poor">
+          <label>Poor(More than 20mins)</label>
+          <input type="radio" name="waitingTime" value="N.A">
+          <label>Not Applicable</label>
+        </form>
         <h5>Additional Comments</h5>
         <form action="" id="transferComments">
-          <textarea rows="4" cols="40" name="transferComments" form="usrform">Enter text here</textarea>
+          <textarea rows="4" cols="40" name="aTransferComments" form="usrform">Enter text here</textarea>
         </form>
       </fieldset>
     </div>
-    <ons-button onclick="fn.load('feedback_departure.html')" style="width:200px">Sign up for package</ons-button>
+    <div style="text-align:center">
+      <ons-button onclick="fn.load('feedback_departure.html')" style="width:150px;margin-top:5px;">Next Page</ons-button>
+    </div>
   </body>
 </ons-page>
