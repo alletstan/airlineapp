@@ -140,20 +140,23 @@
         <p>
           You do not have a valid package. Sign up for one now!
         </p>
-        <ons-button onclick="fn.load('packageDetails.html')">Sign up for package</ons-button>
+        <ons-button onclick="fn.load('packageDetails.html')" style="width:200px">Sign up for package</ons-button>
       </div>
-      <div style="opacity: 0.6; padding-top: 20px;">
-        <h3><b>Account Summary</b></h3>
-        <p id="eliteMiles"><b>Total Elite Miles :</b> </p>
-        <p id="eliteMilesReq"><b>Elite Miles required to requalify :</b> </p>
-        <p id="kfMiles"><b>Total KrisFlyer Miles :</b> </p>
-        <p id="memSince"><b>Member since :</b> </p>
-        <p id="ppsReqBy"><b>Priority Passenger Service requalified by :</b> </p>
-        <p id="ppsReqMiles"><b>Priority Passenger Service miles required to requalify :</b> </p>
-        <p id="ppsReserve"><b>Priority Passenger Service reserve value :</b> </p>
-        <p id="ppsValues"><b>Priority Passenger Service value :</b> </p>
-        <p id="loyaltyTierCode"><b>Loyalty Tier Code :</b> </p>
-        <p id="loyaltyTierName"><b>Loyalty Tier Name :</b> </p>
+      <div style="opacity: 0.6; padding-top: 20px; text-align: center;" class="container">
+        <ons-button class="accordion" style="width:200px">Account Summary</ons-button>
+          <div class="panel" style="text-align: left">
+            <h3><b>Account Summary</b></h3>
+            <p id="eliteMiles"><b>Total Elite Miles :</b> </p>
+            <p id="eliteMilesReq"><b>Elite Miles required to requalify :</b> </p>
+            <p id="kfMiles"><b>Total KrisFlyer Miles :</b> </p>
+            <p id="memSince"><b>Member since :</b> </p>
+            <p id="ppsReqBy"><b>Priority Passenger Service requalified by :</b> </p>
+            <p id="ppsReqMiles"><b>Priority Passenger Service miles required to requalify :</b> </p>
+            <p id="ppsReserve"><b>Priority Passenger Service reserve value :</b> </p>
+            <p id="ppsValues"><b>Priority Passenger Service value :</b> </p>
+            <p id="loyaltyTierCode"><b>Loyalty Tier Code :</b> </p>
+            <p id="loyaltyTierName"><b>Loyalty Tier Name :</b> </p>
+          </div>
       </div>
 
       <script src="javascripts/displayUser.js"></script>
