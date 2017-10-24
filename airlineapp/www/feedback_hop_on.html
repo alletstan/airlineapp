@@ -15,33 +15,97 @@
     <div class="container">
       <fieldset>
         <legend>SIA Hop-on Bus and Package</legend>
-        <h5>SIA Hop-on Bus Experience</h5>
+        <h5><b>SIA Hop-on Bus Experience</b></h5>
         <form action="" id="hopOnExperience">
-          <input type="radio" name="hopOnExperience" value="Excellent">
-          <label>Excellent</label>
-          <input type="radio" name="hopOnExperience" value="Good">
-          <label>Good</label>
-          <input type="radio" name="hopOnExperience" value="Average">
-          <label>Average</label>
-          <input type="radio" name="hopOnExperience" value="Poor">
-          <label>Poor</label>
-          <input type="radio" name="hopOnExperience" value="N.A">
-          <label>Not Applicable</label>
+          <ons-list>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-1" name="hopOnExperience" value="Excellent"></ons-radio>
+              </label>
+              <label for="radio-1" class="center">
+                Excellent
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-2" name="hopOnExperience" value="Good"></ons-radio>
+              </label>
+              <label for="radio-2" class="center">
+                Good
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-3" name="hopOnExperience" value="Average"></ons-radio>
+              </label>
+              <label for="radio-3" class="center">
+                Average
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-4" name="hopOnExperience" value="Poor"></ons-radio>
+              </label>
+              <label for="radio-4" class="center">
+                Poor
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-5" name="hopOnExperience" value="N.A"></ons-radio>
+              </label>
+              <label for="radio-5" class="center">
+                Not Applicable
+              </label>
+            </ons-list-item>
+          </ons-list>
         </form>
-        <h5>Overall how would you rate the Singapore Stopover Holidays/SIA Hoidays/SilkAir Holidays package?</h5>
+        <h5><b>Overall how would you rate the Singapore Stopover Holidays/SIA Hoidays/SilkAir Holidays package?</b></h5>
         <form action="" id="rateHolidayPackage">
-          <input type="radio" name="rateHolidayPackage" value="Excellent">
-          <label>Excellent</label>
-          <input type="radio" name="rateHolidayPackage" value="Good">
-          <label>Good</label>
-          <input type="radio" name="rateHolidayPackage" value="Average">
-          <label>Average</label>
-          <input type="radio" name="rateHolidayPackage" value="Poor">
-          <label>Poor</label>
-          <input type="radio" name="rateHolidayPackage" value="N.A">
-          <label>Not Applicable</label>
+          <ons-list>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-6" name="rateHolidayPackage" value="Excellent"></ons-radio>
+              </label>
+              <label for="radio-6" class="center">
+                Excellent
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-7" name="rateHolidayPackage" value="Good"></ons-radio>
+              </label>
+              <label for="radio-7" class="center">
+                Good
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-8" name="rateHolidayPackage" value="Average"></ons-radio>
+              </label>
+              <label for="radio-8" class="center">
+                Average
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-9" name="rateHolidayPackage" value="Poor"></ons-radio>
+              </label>
+              <label for="radio-9" class="center">
+                Poor
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-10" name="rateHolidayPackage" value="N.A"></ons-radio>
+              </label>
+              <label for="radio-10" class="center">
+                Not Applicable
+              </label>
+            </ons-list-item>
+          </ons-list>
         </form>
-        <h5>Additional Comments/Suggestions</h5>
+        <h5><b>Additional Comments/Suggestions</b></h5>
         <form action="" id="transferComments">
             <textarea rows="4" cols="40" name="packageComments" form="usrform">Enter text here</textarea>
         </form>
@@ -50,7 +114,7 @@
     <div style="text-align:center">
       <ons-button onclick="fn.load('feedback_attractions.html')" style="width:150px">Back</ons-button>
       <br>
-      <ons-input type="submit" value="Submit" style="width:150px;margin-top:5px;" onclick="completed()"></ons-input>
+      <ons-button type="submit" value="Submit" style="width:150px;margin-top:5px;" onclick="completed()">Submit</ons-button>
     </div>
   </body>
   <script>

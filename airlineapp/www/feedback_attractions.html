@@ -17,21 +17,52 @@
         <legend>Attractions Feedback</legend>
         <h5>Attractions</h5>
         <form action="" id="attractions">
-          <input type="radio" name="attractions" value="Excellent">
-          <label>Excellent</label>
-          <input type="radio" name="attractions" value="Good">
-          <label>Good</label>
-          <input type="radio" name="attractions" value="Average">
-          <label>Average</label>
-          <input type="radio" name="attractions" value="Poor">
-          <label>Poor</label>
-          <input type="radio" name="attractions" value="N.A">
-          <label>Not Applicable</label>
+          <ons-list>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-1" name="attractions" value="Excellent"></ons-radio>
+              </label>
+              <label for="radio-1" class="center">
+                Excellent
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-2" name="attractions" value="Good"></ons-radio>
+              </label>
+              <label for="radio-2" class="center">
+                Good
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-3" name="attractions" value="Average"></ons-radio>
+              </label>
+              <label for="radio-3" class="center">
+                Average
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-4" name="attractions" value="Poor"></ons-radio>
+              </label>
+              <label for="radio-4" class="center">
+                Poor
+              </label>
+            </ons-list-item>
+            <ons-list-item tappable>
+              <label class="left">
+                <ons-radio input-id="radio-5" name="attractions" value="N.A"></ons-radio>
+              </label>
+              <label for="radio-5" class="center">
+                Not Applicable
+              </label>
+            </ons-list-item>
+        </ons-list>
         </form>
         <h5>Please indicate the attractions you have visited</h5>
         <form action="" id="attractionsVisited">
           <ons-list>
-            <ons-list-header>Attractions</ons-list-header>
             <ons-list-item tappable>
               <label class="left">
                 <ons-checkbox input-id="check-1" name="attractionsVisited" value="chinatownFoodStreet"></ons-checkbox>
@@ -185,14 +216,14 @@
               </label>
             </ons-list-item>
             </form>
-            <h5>Additional Comments</h5>
+            <h5><b>Additional Comments</b></h5>
             <form action="" id="transferComments">
               <textarea rows="4" cols="40" name="attractionsComments" form="usrform">Enter text here</textarea>
             </form>
       </fieldset>
     </div>
     <div style="text-align:center">
-      <ons-button onclick="fn.load('feedback_accoms.html')" style="width:150px;margin-top:5px;">Back</ons-button>
+      <ons-button onclick="fn.load('feedback_accomms.html')" style="width:150px;margin-top:5px;">Back</ons-button>
       <ons-button onclick="fn.load('feedback_hop_on.html')" style="width:150px;margin-top:5px;">Next Page</ons-button>
     </div>
   </body>
