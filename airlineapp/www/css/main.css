@@ -13,3 +13,8 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+ons-list-item{
+  height:55px;
+  overflow:auto;
+}

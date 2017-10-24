@@ -1,0 +1,335 @@
+<ons-page>
+  <ons-toolbar>
+    <div class="left">
+      <ons-toolbar-button onclick="fn.open()">
+        <ons-icon icon="md-menu"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+    <div class="center">
+      Singapore Explorer Pass Rates
+    </div>
+  </ons-toolbar>
+  <script src="javascripts/filterRates.js"></script>
+  <link rel="stylesheet" href="css/rates.css">
+  <body>
+    <p style="font-size:14px">Purchase your Singapore Explorer Pass by 28 March 2018 for use between 1 April 2017 and 31 March 2018, to enjoy these rates:</p>
+    <div class="dropdown">
+      <button class="dropbtn">Sort by Price Category</button>
+      <div class="dropdown-content">
+        <input type="button" style="width:100%;" onclick="filterSelection('sgd')" value="Currency SGD">
+        <input type="button" style="width:100%;" onclick="filterSelection('aud')" value="Currency AUD">
+        <input type="button" style="width:100%;" onclick="filterSelection('bnd')" value="Currency BND">
+        <input type="button" style="width:100%;" onclick="filterSelection('chf')" value="Currency CHF">
+        <input type="button" style="width:100%;" onclick="filterSelection('dkk')" value="Currency DKK">
+        <input type="button" style="width:100%;" onclick="filterSelection('eur')" value="Currency EUR">
+        <input type="button" style="width:100%;" onclick="filterSelection('gbp')" value="Currency GBP">
+        <input type="button" style="width:100%;" onclick="filterSelection('hkd')" value="Currency HKD">
+        <input type="button" style="width:100%;" onclick="filterSelection('idr')" value="Currency IDR">
+        <input type="button" style="width:100%;" onclick="filterSelection('inr')" value="Currency INR">
+        <input type="button" style="width:100%;" onclick="filterSelection('nzd')" value="Currency NZD">
+        <input type="button" style="width:100%;" onclick="filterSelection('usd')" value="Currency USD">
+      </div>
+    </div>
+    <div class="filterDiv sgd">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(SGD)</font></th>
+          <th><font size="2">Per Child**(SGD)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>60</td>
+          <td>55</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>95</td>
+          <td>70</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>115</td>
+          <td>85</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv aud">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(AUD)</font></th>
+          <th><font size="2">Per Child**(AUD)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>59</td>
+          <td>45</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>93</td>
+          <td>69</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>113</td>
+          <td>84</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv bnd">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(BND)</font></th>
+          <th><font size="2">Per Child**(BND)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>60</td>
+          <td>55</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>95</td>
+          <td>70</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>115</td>
+          <td>85</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv chf">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(CHF)</font></th>
+          <th><font size="2">Per Child**(CHF)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>43</td>
+          <td>32</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>67</td>
+          <td>50</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>82</td>
+          <td>60</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv dkk">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(DKK)</font></th>
+          <th><font size="2">Per Child**(DKK)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>294</td>
+          <td>221</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>466</td>
+          <td>343</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>564</td>
+          <td>417</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv eur">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(EUR)</font></th>
+          <th><font size="2">Per Child**(EUR)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>39</td>
+          <td>30</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>62</td>
+          <td>46</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>75</td>
+          <td>56</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv gbp">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(GBP)</font></th>
+          <th><font size="2">Per Child**(GBP)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>34</td>
+          <td>26</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>54</td>
+          <td>40</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>65</td>
+          <td>48</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv hkd">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(HKD)</font></th>
+          <th><font size="2">Per Child**(HKD)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>343</td>
+          <td>257</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>542</td>
+          <td>400</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>657</td>
+          <td>485</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv idr">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(IDR)</font></th>
+          <th><font size="2">Per Child**(IDR)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>580,000</td>
+          <td>440,000</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>920,000</td>
+          <td>680,000</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>1,120,000</td>
+          <td>830,000</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv inr">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(INR)</font></th>
+          <th><font size="2">Per Child**(INR)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>3099</td>
+          <td>2325</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>4907</td>
+          <td>3616</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>5940</td>
+          <td>4391</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv nzd">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(NZD)</font></th>
+          <th><font size="2">Per Child**(NZD)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>62</td>
+          <td>47</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>98</td>
+          <td>73</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>119</td>
+          <td>88</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="filterDiv usd">
+      <table style="width:100%">
+        <tr>
+          <th><font size="2">Duration*</font></th>
+          <th><font size="2">Per Adult(USD)</font></th>
+          <th><font size="2">Per Child**(USD)</font></th>
+        </tr>
+        <tr class="odd">
+          <td>1 Day Pass</td>
+          <td>45</td>
+          <td>34</td>
+        </tr>
+        <tr class="even">
+          <td>2 Day Pass</td>
+          <td>71</td>
+          <td>52</td>
+        </tr>
+        <tr class="odd">
+          <td>3 Day Pass</td>
+          <td>86</td>
+          <td>63</td>
+        </tr>
+      </table>
+    </div>
+    <p>*The Singapore Explorer Pass is valid for 24-hour blocks from the time when it is first scanned for admission.</p>
+    <p>**Child passes are applicable for children from 3 and below 12 years of age.</p>
+  </body>
+</ons-page>
