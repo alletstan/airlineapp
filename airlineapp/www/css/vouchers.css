@@ -1,4 +1,4 @@
-ons-list-item {
+#voucherList {
   height:100px;
   width:100%;
   margin:0;
@@ -9,6 +9,6 @@ ons-list-item {
 
 img {
   display:block;
-  height:98px;
-  width:40%;
+  height:400px;
+  width:100%;
 }
