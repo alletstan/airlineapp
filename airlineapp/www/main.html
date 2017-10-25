@@ -115,7 +115,9 @@
         </ons-list>
       </ons-page>
     </ons-splitter-side>
-    <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
+    <ons-splitter-content id="content">
+      <ons-navigator id="mainNavigator" animation="slide" swipeable var="myNavigator" page="home.html"></ons-navigator>
+    </ons-splitter-content>
   </ons-splitter>
 
   <template id="home.html">
