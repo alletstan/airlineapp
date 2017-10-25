@@ -1,6 +1,6 @@
 displayUser();
 function displayUser() {
-  document.getElementById("user").innerHTML += userProfile.title + " " + userProfile.lastName ;
+  document.getElementById("user").innerHTML += userProfile.title + " " + userProfile.lastName;
   document.getElementById("eliteMiles").innerHTML += userProfile.accountSummary.eliteMiles;
   document.getElementById("eliteMilesReq").innerHTML += userProfile.accountSummary.eliteRequalifiedMilesRequired;
   document.getElementById("kfMiles").innerHTML += userProfile.accountSummary.kfMiles;

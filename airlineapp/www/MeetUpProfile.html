@@ -14,7 +14,7 @@
 
   <p id="fullname" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Full Name: </p>
   <p id="gender" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Gender: </p>
-  <p id="displayname" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Display Name: Rachel</p>
+  <p id="displayname" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Display Name: </p>
   <p id="nationality" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Nationality: </p>
   <p id="displaymessage" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Short Display message: </p>
 
@@ -22,6 +22,15 @@
 
 
   <script>
+  displayProfile();
+  function displayProfile() {
+    document.getElementById("fullname").innerHTML += userProfile.lastName + " " + userProfile.firstName;
+    document.getElementById("gender").innerHTML += userProfile.gender;
+    document.getElementById("displayname").innerHTML += userProfile.firstName;
+    document.getElementById("nationality").innerHTML += userProfile.passport.nationality;
+    document.getElementById("displaymessage").innerHTML += "Hi. Nice to meet you!";
+  }
+
   function myFunction() {
 
       var fn = document.getElementById("myFullName").value;
@@ -29,10 +38,6 @@
       var dn = document.getElementById("myDisplayName").value;
       var n = document.getElementById("myNationality").value;
       var dm= document.getElementById("DisplayMessage").value;
-
-      // var str = "Hello World!";
-      // var result = str.fontsize(1);
-
 
   	  document.getElementById("fullname").innerHTML = "Full Name: " + fn;
       document.getElementById("gender").innerHTML = "Gender: " + g;
@@ -42,12 +47,6 @@
   }
   </script>
 
-
-  <!-- <p id="fullname"></p>
-  <p id="gender"></p>
-  <p id="displayname"></p>
-  <p id="nationality"></p>
-  <p id="displaymessage"></p> -->
   <div style="opacity: 1; padding-top: 20px; text-align: center;" class="container">
     <ons-button class="accordion" style="width:200px">Edit profile</ons-button>
     <div class="panel" style="text-align: left">
@@ -74,6 +73,6 @@
 
 
 <center>
-  <ons-button onclick="fn.load('meetUp.html')" style="width:200px">Start Chatting</ons-button>
+  <ons-button onclick="mainNavigator.pushPage('meetUp.html')" style="width:200px">Start Chatting</ons-button>
 </center>
 </ons-page>
