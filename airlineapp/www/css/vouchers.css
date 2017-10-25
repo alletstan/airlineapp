@@ -1,0 +1,14 @@
+ons-list-item {
+  height:100px;
+  width:100%;
+  margin:0;
+  padding:0;
+  display:inline-block;
+  vertical-align: top;
+}
+
+img {
+  display:block;
+  height:98px;
+  width:40%;
+}
