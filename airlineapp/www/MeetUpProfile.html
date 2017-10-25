@@ -12,21 +12,65 @@
 
 
 
-  <p style="text-align: justify; font-size:15px; margin-left:1em; margin-right:1em;">Name: Rachel Lee </p>
-  <p style="text-align: justify; font-size:15px; margin-left:1em; margin-right:1em;">Display Name: Rachel</p>
-  <p style="text-align: justify; font-size:15px; margin-left:1em; margin-right:1em;">Nationality: </p>
-  <p style="text-align: justify; font-size:15px; margin-left:1em; margin-right:1em;">Short Display message: </p>
+  <p id="fullname" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Full Name: </p>
+  <p id="gender" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Gender: </p>
+  <p id="displayname" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Display Name: Rachel</p>
+  <p id="nationality" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Nationality: </p>
+  <p id="displaymessage" style="text-align: left; font-size:15px; margin-left:1em; margin-right:1em;">Short Display message: </p>
+
+<!--editing profile-->
 
 
+  <script>
+  function myFunction() {
 
-  <form action="MeetUpProfileForm.php" method="post">
-  Name: <input type="text" name="name"><br>
-  Displayname: <input type="text" name="displayName"><br>
-  Nationality: <input type="text" name="nationality"><br>
-  Short Display Message: <input type="text" name="displaymessage"><br>
-  <button type="submit">
-  </form>
+      var fn = document.getElementById("myFullName").value;
+      var g = document.getElementById("myGender").value;
+      var dn = document.getElementById("myDisplayName").value;
+      var n = document.getElementById("myNationality").value;
+      var dm= document.getElementById("DisplayMessage").value;
 
+      // var str = "Hello World!";
+      // var result = str.fontsize(1);
+
+
+  	  document.getElementById("fullname").innerHTML = "Full Name: " + fn;
+      document.getElementById("gender").innerHTML = "Gender: " + g;
+      document.getElementById("displayname").innerHTML = "Display Name: " + dn;
+      document.getElementById("nationality").innerHTML = "Nationality: " + n;
+      document.getElementById("displaymessage").innerHTML = "Short Display message: " + dm;
+  }
+  </script>
+
+
+  <!-- <p id="fullname"></p>
+  <p id="gender"></p>
+  <p id="displayname"></p>
+  <p id="nationality"></p>
+  <p id="displaymessage"></p> -->
+  <div style="opacity: 1; padding-top: 20px; text-align: center;" class="container">
+    <ons-button class="accordion" style="width:200px">Edit profile</ons-button>
+    <div class="panel" style="text-align: left">
+  <p style="text-align: justify; font-size:15px; margin-left:1em; margin-right:1em;">Full Name:
+  <input id="myFullName" type="text" onkeyup="myFunction()"/><br></p>
+
+  <p style="text-align: justify; font-size:15px; margin-left:1em; margin-right:1em;">Gender:
+  <select id="myGender" onchange="myFunction()">
+    		<option value="Male">Male
+    		<option value="Female">Female
+  		</select><br></p>
+
+  <p style="text-align: justify; font-size:15px; margin-left:1em; margin-right:1em;">Display Name:
+  <input id="myDisplayName" type="text" onkeyup="myFunction()"/><br></p>
+
+  <p style="text-align: justify; font-size:15px; margin-left:1em; margin-right:1em;">Nationality:
+  <input id="myNationality" type="text" onkeyup="myFunction()"/><br></p>
+
+  <p style="text-align: justify; font-size:15px; margin-left:1em; margin-right:1em;">Short Display message:
+  <br><textarea id ="DisplayMessage" rows="5" cols="40"onkeyup="myFunction()"/></textarea></p>
+</div>
+</div>
+<br>
 
 
 <center>
