@@ -1,0 +1,44 @@
+<ons-page>
+  <ons-toolbar>
+    <div class="left"><ons-back-button>Back</ons-back-button></div>
+    <div class="right">
+      <ons-toolbar-button onclick="fn.open()">
+        <ons-icon icon="md-menu"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+    <div class="center" style="font-size:14px">
+      Chat with other tourists!
+    </div>
+  </ons-toolbar>
+  <style>
+    ons-button {
+      width:50%;
+    }
+  </style>
+  <ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel">
+    <ons-carousel-item>
+      <img style="height:70%;width:100%;padding:0;margin:0;" src="https://avatars1.githubusercontent.com/u/19767716?s=400&v=4">
+      <div class="container" style="text-align:left;font-size:13px;padding:0;margin:0;">
+        <p>Name : George Malito</p>
+        <p>Nationality : Italian</p>
+        <p>Gender : M</p>
+        <p>Display message : Hey there!</p>
+      </div>
+      <div style="text-align:center">
+        <ons-button onclick="mainNavigator.pushPage('meetUp.html')">Chat!</ons-button>
+      </div>
+    </ons-carousel-item>
+    <ons-carousel-item>
+      <img style="height:70%;width:100%;padding:0;margin:0;" src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/e35/15623779_741820092650469_8955489317375967232_n.jpg">
+      <div class="container" style="text-align:left;font-size:13px;padding:0;margin:0;">
+        <p>Name : Maximilian Éamonn</p>
+        <p>Nationality : Romanian</p>
+        <p>Gender : M</p>
+        <p>Display message : Adevărul se spune glumind!</p>
+      </div>
+      <div style="text-align:center">
+        <ons-button onclick="mainNavigator.pushPage('meetUp.html')">Chat!</ons-button>
+      </div>
+    </ons-carousel-item>
+  </ons-carousel>
+</ons-page>
