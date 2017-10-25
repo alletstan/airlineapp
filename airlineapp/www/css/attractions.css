@@ -1,11 +1,4 @@
-ons-carousel {
-  width:100%;
-  height:170px;
-  margin:0;
-  padding:0;
-}
-
-ons-carousel-item img {
+img {
   width:100%;
   height:170px;
 }
