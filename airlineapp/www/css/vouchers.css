@@ -1,5 +1,4 @@
 #voucherList {
-  height:100px;
   width:100%;
   margin:0;
   padding:0;
@@ -9,6 +8,18 @@
 
 img {
   display:block;
-  height:400px;
+  height:80%;
   width:100%;
+}
+
+div.container {
+  height:100%;
+  width:auto;
+  margin:0;
+  padding:0;
+  background-color: gold;
+  color: red;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 24px;
 }
