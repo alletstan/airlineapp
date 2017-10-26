@@ -1,0 +1,18 @@
+table tr:nth-child(even) {
+    background-color: #eee;
+    font-size: 13px;
+}
+
+table th {
+    background-color: darkblue;
+    color: gold;
+    font-size: 13px;
+}
+
+table, th, td {
+    margin-top: 5px;
+    padding: 6;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 13px;
+}
