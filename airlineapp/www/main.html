@@ -58,6 +58,15 @@
             </div>
           </ons-list-item>
 
+          <ons-list-item onclick="fn.load('gettingStarted.html')" tappable>
+            <div class="left">
+              <ons-icon icon="md-info" class="list-item__icon"></ons-icon>
+            </div>
+            <div class="center">
+              Getting Started
+            </div>
+          </ons-list-item>
+
           <ons-list-item onclick="fn.load('usefulContacts.html')" tappable>
             <div class="left">
               <ons-icon icon="md-phone" class="list-item__icon"></ons-icon>
@@ -67,12 +76,12 @@
             </div>
           </ons-list-item>
 
-          <ons-list-item onclick="fn.load('about.html')" tappable>
+          <ons-list-item onclick="fn.load('hopOnBus.html')" tappable>
             <div class="left">
-              <ons-icon icon="md-help" class="list-item__icon"></ons-icon>
+              <ons-icon icon="md-bus" class="list-item__icon"></ons-icon>
             </div>
             <div class="center">
-              About
+              SIA Hop On Bus
             </div>
           </ons-list-item>
 
@@ -147,6 +156,9 @@
           <p id="invalidPackageBtn">
 
           </p>
+        </div>
+        <div style="text-align: center; opacity: 0.6; padding-top: 20px;">
+          <ons-button onclick="mainNavigator.pushPage('gettingStarted.html')">Getting started</ons-button>
         </div>
         <div style="opacity: 0.6; padding-top: 20px; text-align: center;" class="container">
           <ons-button class="accordion">Account Summary</ons-button>
