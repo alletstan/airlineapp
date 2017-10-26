@@ -1,4 +1,5 @@
 <ons-page>
+  <link rel="stylesheet" href="css/hopOnBus.css">
   <ons-toolbar>
     <div class="left">
       <ons-toolbar-button onclick="fn.open()">
@@ -12,7 +13,7 @@
   <style>
     img {
       width:100%;
-      height:30%;
+      height:25%;
     }
   </style>
   <center>
@@ -30,4 +31,100 @@
     out for the City Sightseeing red front livery before
     you board the bus.
   </p>
+
+  <div class="container">
+      <button class="accordion">Ticketing Information</button>
+      <div class="panel">
+          <table style="width:100%;">
+            <tr>
+              <th>
+                Price
+              </th>
+              <th>
+                Adult
+              </th>
+              <th>
+                Child
+              </th>
+              <th>
+                Toddler
+              </th>
+            </tr>
+            <tr>
+              <td>
+                Singapore Airlines / SilkAir Boarding Pass Holders
+              </td>
+              <td>
+                S$19.50(U.P @$39)
+              </td>
+              <td>
+                S$14.50(U.P @$29)
+              </td>
+              <td>
+                Free
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Singapore Explorer Pass Holders/ Singapore
+                Stopover Holidays Visitors*
+              </td>
+              <td>
+                Free
+              </td>
+              <td>
+                Free
+              </td>
+              <td>
+                Free
+              </td>
+            </tr>
+          </table>
+        <p>
+          *Singapore Explorer Pass Holders and Singapore
+          Stopover Holidays (SSH) Visitors
+          Free admission with respective package identification card
+          or ticket.
+        </p>
+      </div>
+
+      <button class="accordion">Terms and Conditions</button>
+      <div class="panel">
+        <p style="text-align: left; opacity: 1; padding-top: 0px; font-size:20px;font-family:verdana;">
+          <ul>
+            <li>
+              In joining the SIA Hop-on tour, it is deemed that you have fully accepted the company’s
+              trading terms and conditions. Available at www.ducknhippo.com/tnc
+              Tour Route and Schedule
+            </li>
+            <br>
+            <li>
+              The company reserves the right to substitute the buses when necessary. The company
+              endeavours to provide departure points for the services as accurate as possible. However, the
+              company reserves the right to vary such departure points, routes and stops without notices,
+              as circumstances require, and beyond the company’s control.
+            </li>
+            <br>
+            <li>
+              <b>Accident and Loss</b><br>
+                Please take care of all your personal property while touring with us. The company will not be
+                liable for any loss, damages, delays, inconveniences, direct or inconsequential loss.
+            </li>
+            <br>
+            <li>
+              <b>General Conditions</b><br>
+                We reserve the rights to request the customer to alight the bus, should his/her behavior is
+                deemed unreasonably and/or poses a threat to other customers.
+            </li>
+            <br>
+            <li>
+              <b>Where can you get your tickets?</b><br>
+                You can flag down the bus at any designated stop and buy
+                your ticket on board the bus.
+            </li>
+          </ul>
+        </p>
+      </div>
+      <button class="accordion" onclick="mainNavigator.pushPage('busSchedules.html')">Bus Schedules</button>
+      <div class="panel"></div>
 </ons-page>
