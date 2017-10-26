@@ -30,14 +30,14 @@ app.use(bodyParser.json());
 var conversation = new Conversation({
   // If unspecified here, the CONVERSATION_USERNAME and CONVERSATION_PASSWORD env properties will be checked
   // After that, the SDK will fall back to the bluemix-provided VCAP_SERVICES environment property
-  //'username': process.env.CONVERSATION_USERNAME,
-  //'password': process.env.CONVERSATION_PASSWORD,
-  'version_date': '2017-05-26'
+  'username': 'c2a6ffc1-ca80-4455-9fe6-bf23a8be2e7c',
+  'password': 'KTEvskNSfmfM',
+  'version_date': '2017-10-26'
 });
 
 // Endpoint to be call from the client side
 app.post('/api/message', function(req, res) {
-  var workspace = process.env.WORKSPACE_ID || '<workspace-id>';
+  var workspace = 'e646128e-bb2e-4588-a70f-f3886b4d5d6b';
   if (!workspace || workspace === '<workspace-id>') {
     return res.json({
       'output': {
