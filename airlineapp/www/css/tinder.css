@@ -1,0 +1,10 @@
+div.container {
+  /*width:auto;*/
+  margin-left:1em;
+  margin-right:1em;
+  padding:0;
+  text-align: left;
+  /*font-family: "Goudy Old Style", Garamond;*/
+  /*font-weight: bold;*/
+font-size: 14px;
+}

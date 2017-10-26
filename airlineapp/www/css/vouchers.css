@@ -12,14 +12,34 @@ img {
   width:100%;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 div.container {
   height:100%;
   width:auto;
   margin:0;
   padding:0;
-  background-color: gold;
   color: red;
   text-align: center;
-  font-family: fantasy;
-  font-size: 24px;
+  font-family: "Brush Script MT", cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table, td, th {
+    border: 1px;
+    background-image: url("https://t4.ftcdn.net/jpg/01/33/77/59/160_F_133775940_0K9KVheY7WvuOSfI6BAEKAnOStTpCip2.jpg");
+    text-align: center;
+    padding: 8px;
 }
