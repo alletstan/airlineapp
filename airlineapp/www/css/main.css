@@ -14,7 +14,12 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-ons-list-item{
+ons-list-item {
   height:55px;
   overflow:auto;
+}
+
+ons-button {
+  width:250px;
+  word-wrap: normal;
 }

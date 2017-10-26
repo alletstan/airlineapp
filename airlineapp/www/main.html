@@ -138,13 +138,18 @@
       <body>
         <div style="text-align: center; opacity: 0.6; padding-top: 20px;">
           <h1 id="user">Welcome back </h1>
-          <p>
-            You do not have a valid package. Sign up for one now!
+          <p id="qrCode">
+
           </p>
-          <ons-button onclick="mainNavigator.pushPage('packageDetails.html')" style="width:200px">Sign up for package</ons-button>
+          <p id="invalidPackage">
+
+          </p>
+          <p id="invalidPackageBtn">
+
+          </p>
         </div>
         <div style="opacity: 0.6; padding-top: 20px; text-align: center;" class="container">
-          <ons-button class="accordion" style="width:200px">Account Summary</ons-button>
+          <ons-button class="accordion">Account Summary</ons-button>
           <div class="panel" style="text-align: left">
             <h3><b>Account Summary</b></h3>
             <table>
@@ -194,6 +199,7 @@
         </div>
       </body>
       <script src="javascripts/displayUser.js"></script>
+      <script src="javascripts/main.js"></script>
     </ons-page>
   </template>
 

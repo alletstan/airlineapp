@@ -12,3 +12,27 @@ function displayUser() {
   document.getElementById("loyaltyTierCode").innerHTML += userProfile.loyaltyTierCode;
   document.getElementById("loyaltyTierName").innerHTML += userProfile.loyaltyTierName;
 }
+
+displayPackage();
+function displayPackage() {
+  if (hasPackage == false){
+    document.getElementById('invalidPackage').innerHTML = "You do not have a valid package. Sign up for one now!";
+    var element = document.createElement("ons-button");
+    var textNode = document.createTextNode("Sign Up for a Package!");
+    element.onclick = function() {
+      fn.load('packageDetails.html');
+    }
+    element.appendChild(textNode);
+    document.getElementById('invalidPackageBtn').appendChild(element);
+  }
+  else{
+    document.getElementById('qrCode').innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/330px-QR_code_for_mobile_English_Wikipedia.svg.png">';
+    var element = document.createElement("ons-button");
+    var textNode = document.createTextNode("Package Details");
+    element.onclick = function() {
+      fn.load('packageDetails.html');
+    }
+    element.appendChild(textNode);
+    document.getElementById('qrCode').appendChild(element);
+  }
+}

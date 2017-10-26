@@ -8,6 +8,7 @@ $.ajaxPrefilter( function (options) {
 
 var krisFlyerNumber = null;
 var userProfile = null;
+var hasPackage = false;
 
 window.fn = {};
 window.fn.open = function() {
