@@ -1,0 +1,37 @@
+img#busStopSign {
+  height:56px;
+  width:40px;
+  vertical-align: middle;
+}
+
+img#busStopNum {
+  height:19px;
+  width:90px;
+  vertical-align: middle;
+}
+
+table#red {
+  background-color:red;
+  font-size: 13px;
+}
+table#red tr:nth-child(odd) {
+    background-color: #eee;
+    color: black;
+}
+
+table#red tr:nth-child(even) {
+    color: white;
+}
+
+table#yellow {
+  background-color:yellow;
+  font-size: 13px;
+}
+table#yellow tr:nth-child(odd) {
+    background-color: #eee;
+    color: black;
+}
+
+table#yellow tr:nth-child(even) {
+    color: white;
+}
