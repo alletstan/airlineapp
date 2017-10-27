@@ -6,13 +6,13 @@
 
 ## Key features
 
-#### 1. Chat bot
+#### 1. Chat bot :octocat:
 SIA experience long waiting time during peak hours. Our chat bot will help to answer basic questions compiled from a list of common FAQs from SIA database and provide recommendations on local delicacies. There is potential for machine learning in this area as the chat bot can capture users input, ask a human SIA staff when it does not know the answer, and learn from the answers given by the human SIA staff.
 
-#### 2. One-stop platform for SSH information needs
+#### 2. One-stop platform for SSH information needs :airplane:
 The mobile application compiles from SIA various information necessary for tourists to make various decisions about their SSH travel. Useful information such as places of attractions, fun activities in Singapore and special events such as olympics and grand prix can be found here.
 
-#### 3. Meet Up!
+#### 3. Meet Up! :couple:
 It is always better to create alternative where tourists can gather information about various aspects of SSH. `Meet Up!` empowers tourists to do so by allowing them to interact with fellow tourists experiencing the same SSH journey through the `Meet Up!` messaging feature. Tourists would be able to share their fun experience together.
 
 
