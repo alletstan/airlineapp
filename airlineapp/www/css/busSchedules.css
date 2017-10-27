@@ -13,25 +13,52 @@ img#busStopNum {
 table#red {
   background-color:red;
   font-size: 13px;
+  margin:5px;
 }
 table#red tr:nth-child(odd) {
-    background-color: #eee;
-    color: black;
+
+  color: white;
 }
 
 table#red tr:nth-child(even) {
-    color: white;
+  color: black;
 }
 
 table#yellow {
   background-color:yellow;
   font-size: 13px;
+  margin: 5px;
 }
 table#yellow tr:nth-child(odd) {
-    background-color: #eee;
-    color: black;
+  color: black;
 }
 
 table#yellow tr:nth-child(even) {
-    color: white;
+  color: black;
+}
+
+table#blue {
+  background-color:blue;
+  font-size: 13px;
+  margin: 5px;
+}
+table#blue tr:nth-child(odd) {
+  color: white;
+}
+
+table#blue tr:nth-child(even) {
+  color: black;
+}
+
+table#green {
+  background-color:green;
+  font-size: 13px;
+  margin: 5px;
+}
+table#green tr:nth-child(odd) {
+  color: black;
+}
+
+table#green tr:nth-child(even) {
+  color: black;
 }
