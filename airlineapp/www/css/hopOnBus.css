@@ -1,18 +1,33 @@
-table tr:nth-child(even) {
+table#ticketInfo tr:nth-child(even) {
     background-color: #eee;
     font-size: 13px;
 }
 
-table th {
+table#ticketInfo th {
     background-color: darkblue;
     color: gold;
     font-size: 13px;
 }
 
-table, th, td {
+table#ticketInfo, th, td {
     margin-top: 5px;
     padding: 6;
     border: 1px solid black;
     border-collapse: collapse;
     font-size: 13px;
+}
+
+#benefits th, td {
+  width:50%;
+}
+
+table#benefits, td, th {
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 15px;
+  font-weight:normal;
+}
+
+ons-icon#advantage {
+  color: gold;
 }
